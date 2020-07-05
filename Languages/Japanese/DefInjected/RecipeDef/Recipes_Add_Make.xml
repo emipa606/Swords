@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, LS_AncestralForge -->
+  <Make_LS_CloudSword.label>バスターソードを作る</Make_LS_CloudSword.label>
+  <Make_LS_CloudSword.description>バスターソードを作る。</Make_LS_CloudSword.description>
+  <Make_LS_CloudSword.jobString>バスターソードを製作中</Make_LS_CloudSword.jobString>
+  <Make_LS_Nightfall.label>ドラゴン殺しを作る</Make_LS_Nightfall.label>
+  <Make_LS_Nightfall.description>ドラゴン殺しを作る。</Make_LS_Nightfall.description>
+  <Make_LS_Nightfall.jobString>ドラゴン殺しを製作中</Make_LS_Nightfall.jobString>
+  <Make_LS_Executioner.label>首斬り包丁を作る</Make_LS_Executioner.label>
+  <Make_LS_Executioner.description>首斬り包丁を作る。</Make_LS_Executioner.description>
+  <Make_LS_Executioner.jobString>首斬り包丁を製作中</Make_LS_Executioner.jobString>
+  <Make_LS_Deathbringer.label>デスブリンガーを作る</Make_LS_Deathbringer.label>
+  <Make_LS_Deathbringer.description>デスブリンガーを作る。</Make_LS_Deathbringer.description>
+  <Make_LS_Deathbringer.jobString>デスブリンガーを製作中</Make_LS_Deathbringer.jobString>
+  <Make_LS_RedQueen.label>レッドクイーンを作る</Make_LS_RedQueen.label>
+  <Make_LS_RedQueen.description>レッドクイーンを作る。</Make_LS_RedQueen.description>
+  <Make_LS_RedQueen.jobString>レッドクイーンを製作中</Make_LS_RedQueen.jobString>
+</LanguageData>

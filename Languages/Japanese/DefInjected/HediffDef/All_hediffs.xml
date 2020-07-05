@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Poison # Black Widow -->
+  <LS_BlackPoison.label>猛毒</LS_BlackPoison.label>
+  <LS_BlackPoison.stages.minor-0.label>初期</LS_BlackPoison.stages.minor-0.label>
+  <LS_BlackPoison.stages.minor-1.label>初期</LS_BlackPoison.stages.minor-1.label>
+  <LS_BlackPoison.stages.moderate.label>中症</LS_BlackPoison.stages.moderate.label>
+  <LS_BlackPoison.stages.severe.label>重症</LS_BlackPoison.stages.severe.label>
+  <LS_BlackPoison.stages.extreme.label>致命的</LS_BlackPoison.stages.extreme.label>
+  <!-- Hemorrhage # Bleeding -->
+  <LS_BleedOut.label>血の噴き出し</LS_BleedOut.label>
+  <LS_BleedOut.stages.minor-0.label>初期</LS_BleedOut.stages.minor-0.label>
+  <LS_BleedOut.stages.minor-1.label>初期</LS_BleedOut.stages.minor-1.label>
+  <LS_BleedOut.stages.moderate.label>中症</LS_BleedOut.stages.moderate.label>
+  <LS_BleedOut.stages.severe.label>重症</LS_BleedOut.stages.severe.label>
+  <LS_BleedOut.stages.extreme.label>致命傷</LS_BleedOut.stages.extreme.label>
+  <LS_BleedOut.stages.gaping.label>血の大穴</LS_BleedOut.stages.gaping.label>
+  <!-- Cloud # Strife -->
+  <LS_CloudStrife.label>ストーム</LS_CloudStrife.label>
+  <LS_CloudStrife.stages.minor-0.label>初期</LS_CloudStrife.stages.minor-0.label>
+  <LS_CloudStrife.stages.minor-1.label>初期</LS_CloudStrife.stages.minor-1.label>
+  <LS_CloudStrife.stages.moderate.label>中症</LS_CloudStrife.stages.moderate.label>
+  <LS_CloudStrife.stages.severe.label>重症</LS_CloudStrife.stages.severe.label>
+  <LS_CloudStrife.stages.extreme.label>致命傷</LS_CloudStrife.stages.extreme.label>
+  <LS_CloudStrife.stages.inner_conflict.label>内部破裂</LS_CloudStrife.stages.inner_conflict.label>
+  <!-- Executioner # Freezing -->
+  <LS_ColdHeart.label>凍てつく寒さ</LS_ColdHeart.label>
+  <!-- Red Queen # Flame -->
+  <LS_LiquidFire.label>推進剤の燃焼</LS_LiquidFire.label>
+  <LS_LiquidFire.stages.ardent-0.label>燃え盛る炎</LS_LiquidFire.stages.ardent-0.label>
+  <LS_LiquidFire.stages.ardent-1.label>燃え盛る炎</LS_LiquidFire.stages.ardent-1.label>
+  <LS_LiquidFire.stages.undying.label>不滅の炎</LS_LiquidFire.stages.undying.label>
+  <LS_LiquidFire.stages.haunting.label>消えない炎</LS_LiquidFire.stages.haunting.label>
+  <LS_LiquidFire.stages.devilish.label>凶悪な炎</LS_LiquidFire.stages.devilish.label>
+  <LS_LiquidFire.stages.brand.label>烙印</LS_LiquidFire.stages.brand.label>
+</LanguageData>

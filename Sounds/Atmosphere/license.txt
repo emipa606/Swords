@@ -1,0 +1,40 @@
+
+  Sound #1 sword draw
+  Author: freefire66
+  License: CC-BY 3.0
+ 
+  Sound #2 sword tornado
+  Author: nextmaking
+  License: CC-BY 3.0
+  
+  Sound #3 sword fight
+  Author: audione
+  License: CC-BY 3.0 
+
+  Sound #4 bloody blade
+  Author: kreastricon62
+  License: CC-BY 3.0
+
+  Sound #5 heavy swing
+  Author: orangesheepdog
+  License: CC-BY 3.0 
+
+  Sound #6 heavy swoosh
+  Author: hadahector
+  License: CC-BY 3.0 
+
+  Sound #7 sword impact
+  Author: thebuilder15
+  License: CC-BY 3.0 
+
+  Sound #8 stab damage
+  Author: braqoon
+  License: CC-BY 3.0 
+
+  Sound #8 sword sheath
+  Author: funwithsound
+  License: CC-BY 3.0 
+
+  Sounds #9 Slashes
+  Author: Madman
+  License: Permission

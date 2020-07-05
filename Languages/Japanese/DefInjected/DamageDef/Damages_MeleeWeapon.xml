@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Cut # Poison -->
+  <LS_BlackPoison.label>ブラックウィドウ</LS_BlackPoison.label>
+  <LS_BlackPoison.deathMessage>{0}は毒が回って死んだ。</LS_BlackPoison.deathMessage>
+  <!-- Dark Veil # Shadows -->
+  <LS_DarkShadows.label>ダークシャドウ</LS_DarkShadows.label>
+  <LS_DarkShadows.deathMessage>{0} has been stabbed to death out of nowhere.</LS_DarkShadows.deathMessage>
+  <!-- Executioners # Behead -->
+  <LS_DecapBehead.label>処刑人の一撃</LS_DecapBehead.label>
+  <LS_DecapBehead.deathMessage>{0}は斬首されて死んだ。</LS_DecapBehead.deathMessage>
+  <LS_FrozenBlade.label>心停止</LS_FrozenBlade.label>
+  <LS_FrozenBlade.deathMessage>{0}は心臓を止められて死んだ。</LS_FrozenBlade.deathMessage>
+  <!-- Hemorrhage # Bleeding -->
+  <LS_FenrisFang.label>フェンリスの牙</LS_FenrisFang.label>
+  <LS_FenrisFang.deathMessage>{0}はスライスされて死んだ。</LS_FenrisFang.deathMessage>
+  <!-- Bloodrain # Stun -->
+  <LS_BloodRain.label>ブラッドレイン</LS_BloodRain.label>
+  <LS_BloodRain.deathMessage>{0}は破裂してバラバラになって死んだ。</LS_BloodRain.deathMessage>
+  <!-- Storm Razor # Stun -->
+  <LS_StormRazor.label>ストームレイザー</LS_StormRazor.label>
+  <LS_StormRazor.deathMessage>{0}は細切れに分解されて死んだ。</LS_StormRazor.deathMessage>
+  <!-- Flash -->
+  <LS_FlashBack.label>衝突</LS_FlashBack.label>
+  <LS_FlashBack.deathMessage>{0}は切り裂かれて死んだ。</LS_FlashBack.deathMessage>
+  <!-- Hellfire -->
+  <LS_FieryJustice.label>裁きの炎</LS_FieryJustice.label>
+  <LS_FieryJustice.deathMessage>{0}は焼かれて灰になって死んだ。</LS_FieryJustice.deathMessage>
+  <LS_Hellfire.label>地獄の炎</LS_Hellfire.label>
+  <LS_Hellfire.deathMessage>{0}は焼かれて灰になって死んだ。</LS_Hellfire.deathMessage>
+</LanguageData>

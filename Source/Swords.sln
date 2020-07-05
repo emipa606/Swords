@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigChoppa", "BigChoppa\BigChoppa.csproj", "{F6A26141-7E08-4CB7-9249-E37DF40D1A30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompExtraSounds", "CompExtraSounds\CompExtraSounds.csproj", "{F6A26141-7E08-4CB7-9249-E37DF40D1A31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompOversizedWeapon", "CompOversizedWeapon\CompOversizedWeapon.csproj", "{F6A26141-7E08-4CB7-9249-E37DF40D1A32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkGiver_InspirationRequired", "WorkGiver_InspirationRequired\WorkGiver_InspirationRequired.csproj", "{F6A26141-7E08-4CB7-9249-E37DF40D1A33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6A26141-7E08-4CB7-9249-E37DF40D1A30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A26141-7E08-4CB7-9249-E37DF40D1A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A26141-7E08-4CB7-9249-E37DF40D1A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A26141-7E08-4CB7-9249-E37DF40D1A30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A26141-7E08-4CB7-9249-E37DF40D1A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A26141-7E08-4CB7-9249-E37DF40D1A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A26141-7E08-4CB7-9249-E37DF40D1A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A26141-7E08-4CB7-9249-E37DF40D1A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A26141-7E08-4CB7-9249-E37DF40D1A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A26141-7E08-4CB7-9249-E37DF40D1A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A26141-7E08-4CB7-9249-E37DF40D1A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A26141-7E08-4CB7-9249-E37DF40D1A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A26141-7E08-4CB7-9249-E37DF40D1A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A26141-7E08-4CB7-9249-E37DF40D1A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A26141-7E08-4CB7-9249-E37DF40D1A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A26141-7E08-4CB7-9249-E37DF40D1A33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

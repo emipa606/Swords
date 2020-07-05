@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Poison # Black Widow -->
+
+  <LS_BlackPoison.label>poison</LS_BlackPoison.label>
+  <LS_BlackPoison.stages.0.label>minor</LS_BlackPoison.stages.0.label>
+  <LS_BlackPoison.stages.1.label>minor</LS_BlackPoison.stages.1.label>
+  <LS_BlackPoison.stages.2.label>moderate</LS_BlackPoison.stages.2.label>
+  <LS_BlackPoison.stages.3.label>severe</LS_BlackPoison.stages.3.label>
+  <LS_BlackPoison.stages.4.label>extreme</LS_BlackPoison.stages.4.label>
+
+
+  <!-- Hemorrhage # Bleeding -->
+
+  <LS_BleedOut.label>bleeding</LS_BleedOut.label>
+  <LS_BleedOut.stages.0.label>minor</LS_BleedOut.stages.0.label>
+  <LS_BleedOut.stages.1.label>minor</LS_BleedOut.stages.1.label>
+  <LS_BleedOut.stages.2.label>moderate</LS_BleedOut.stages.2.label>
+  <LS_BleedOut.stages.3.label>severe</LS_BleedOut.stages.3.label>
+  <LS_BleedOut.stages.4.label>extreme</LS_BleedOut.stages.4.label>
+  <LS_BleedOut.stages.5.label>gaping</LS_BleedOut.stages.5.label>
+
+
+  <!-- Cloud # Strife -->
+
+  <LS_CloudStrife.label>storm</LS_CloudStrife.label>
+  <LS_CloudStrife.stages.0.label>minor</LS_CloudStrife.stages.0.label>
+  <LS_CloudStrife.stages.1.label>minor</LS_CloudStrife.stages.1.label>
+  <LS_CloudStrife.stages.2.label>moderate</LS_CloudStrife.stages.2.label>
+  <LS_CloudStrife.stages.3.label>severe</LS_CloudStrife.stages.3.label>
+  <LS_CloudStrife.stages.4.label>extreme</LS_CloudStrife.stages.4.label>
+  <LS_CloudStrife.stages.5.label>inner conflict</LS_CloudStrife.stages.5.label>
+
+
+  <!-- Executioner # Freezing -->
+
+  <LS_ColdHeart.label>freezing cold</LS_ColdHeart.label>
+
+
+  <!-- Red Queen # Flame -->
+
+  <LS_LiquidFire.label>liquid fire</LS_LiquidFire.label>
+  <LS_LiquidFire.stages.0.label>ardent</LS_LiquidFire.stages.0.label>
+  <LS_LiquidFire.stages.1.label>ardent</LS_LiquidFire.stages.1.label>
+  <LS_LiquidFire.stages.2.label>undying</LS_LiquidFire.stages.2.label>
+  <LS_LiquidFire.stages.3.label>haunting</LS_LiquidFire.stages.3.label>
+  <LS_LiquidFire.stages.4.label>devilish</LS_LiquidFire.stages.4.label>
+  <LS_LiquidFire.stages.5.label>brand</LS_LiquidFire.stages.5.label>
+
+
+</LanguageData>

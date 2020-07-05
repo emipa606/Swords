@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Poison # Black Widow -->
+  <LS_BlackPoison.label>отравление</LS_BlackPoison.label>
+  <LS_BlackPoison.stages.0.label>легкое</LS_BlackPoison.stages.0.label>
+  <LS_BlackPoison.stages.1.label>легкое</LS_BlackPoison.stages.1.label>
+  <LS_BlackPoison.stages.2.label>умеренное</LS_BlackPoison.stages.2.label>
+  <LS_BlackPoison.stages.3.label>тяжелое</LS_BlackPoison.stages.3.label>
+  <LS_BlackPoison.stages.4.label>смертельное</LS_BlackPoison.stages.4.label>
+  <!-- Hemorrhage # Bleeding -->
+  <LS_BleedOut.label>кровотечение</LS_BleedOut.label>
+  <LS_BleedOut.stages.0.label>легкое</LS_BleedOut.stages.0.label>
+  <LS_BleedOut.stages.1.label>легкое</LS_BleedOut.stages.1.label>
+  <LS_BleedOut.stages.2.label>умеренное</LS_BleedOut.stages.2.label>
+  <LS_BleedOut.stages.3.label>тяжелое</LS_BleedOut.stages.3.label>
+  <LS_BleedOut.stages.4.label>смертельное</LS_BleedOut.stages.4.label>
+  <LS_BleedOut.stages.5.label>зияющее</LS_BleedOut.stages.5.label>
+  <!-- Cloud # Strife -->
+  <LS_CloudStrife.label>буран</LS_CloudStrife.label>
+  <LS_CloudStrife.stages.0.label>легкое</LS_CloudStrife.stages.0.label>
+  <LS_CloudStrife.stages.1.label>легкое</LS_CloudStrife.stages.1.label>
+  <LS_CloudStrife.stages.2.label>умеренное</LS_CloudStrife.stages.2.label>
+  <LS_CloudStrife.stages.3.label>тяжелое</LS_CloudStrife.stages.3.label>
+  <LS_CloudStrife.stages.4.label>смертельное</LS_CloudStrife.stages.4.label>
+  <LS_CloudStrife.stages.5.label>внутренний конфликт</LS_CloudStrife.stages.5.label>
+  <!-- Executioner # Freezing -->
+  <LS_ColdHeart.label>ледянящий рубец</LS_ColdHeart.label>
+  <!-- Red Queen # Flame -->
+  <LS_LiquidFire.label>жидкий огонь</LS_LiquidFire.label>
+  <LS_LiquidFire.stages.0.label>горячий</LS_LiquidFire.stages.0.label>
+  <LS_LiquidFire.stages.1.label>горячий</LS_LiquidFire.stages.1.label>
+  <LS_LiquidFire.stages.2.label>нескончаемый</LS_LiquidFire.stages.2.label>
+  <LS_LiquidFire.stages.3.label>мучительный</LS_LiquidFire.stages.3.label>
+  <LS_LiquidFire.stages.4.label>дьявольский</LS_LiquidFire.stages.4.label>
+  <LS_LiquidFire.stages.5.label>клеймо</LS_LiquidFire.stages.5.label>
+</LanguageData>

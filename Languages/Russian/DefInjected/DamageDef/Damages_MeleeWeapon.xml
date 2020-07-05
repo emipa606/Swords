@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Cut # Poison -->
+  <LS_BlackPoison.label>черная вдова</LS_BlackPoison.label>
+  <LS_BlackPoison.deathMessage>{0} умер от укуса.</LS_BlackPoison.deathMessage>
+  <!-- Dark Veil # Shadows -->
+  <LS_DarkShadows.label>темнейшие тени</LS_DarkShadows.label>
+  <LS_DarkShadows.deathMessage>{0} был заколот до смерти.</LS_DarkShadows.deathMessage>
+  <!-- Executioners # Behead -->
+  <LS_DecapBehead.label>умер от смертельного пореза</LS_DecapBehead.label>
+  <LS_DecapBehead.deathMessage>{0} был обезглавлен.</LS_DecapBehead.deathMessage>
+  <LS_FrozenBlade.label>замороженно сердце</LS_FrozenBlade.label>
+  <LS_FrozenBlade.deathMessage>{0} заледенел до смерти.</LS_FrozenBlade.deathMessage>
+  <!-- Hemorrhage # Bleeding -->
+  <LS_FenrisFang.label>укус фернессы</LS_FenrisFang.label>
+  <LS_FenrisFang.deathMessage>{0} был разрезан на кусочки.</LS_FenrisFang.deathMessage>
+  <!-- Bloodrain # Stun -->
+  <LS_BloodRain.label>кровопускание</LS_BloodRain.label>
+  <LS_BloodRain.deathMessage>{0} был разорван.</LS_BloodRain.deathMessage>
+  <!-- Storm Razor # Stun -->
+  <LS_StormRazor.label>штормовая бритва</LS_StormRazor.label>
+  <LS_StormRazor.deathMessage>{0} был разобран на кусочки.</LS_StormRazor.deathMessage>
+  <!-- Flash -->
+  <LS_FlashBack.label>конфликт</LS_FlashBack.label>
+  <LS_FlashBack.deathMessage>{0} был изрезан до смерти.</LS_FlashBack.deathMessage>
+  <!-- Hellfire -->
+  <LS_FieryJustice.label>нерон</LS_FieryJustice.label>
+  <LS_FieryJustice.deathMessage>{0} выжжен до пепла.</LS_FieryJustice.deathMessage>
+  <LS_Hellfire.label>адское пламя</LS_Hellfire.label>
+  <LS_Hellfire.deathMessage>{0} выжжен до пепла.</LS_Hellfire.deathMessage>
+</LanguageData>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Cloud Sword -->
+  <LS_CloudSword.label>バスターソード</LS_CloudSword.label>
+  <LS_CloudSword.description>この伝説的な刀は恐らく無名の鍛冶職人に鍛えられたと思われます。巨大過ぎて、その重量は両手でしか扱いきれません。刃に軽く触れただけで、かろうじて感じることができるほどのわずかな風がゆっくりと力を集めて、次第に荒れ狂う嵐になり、再びワイルダー自身の感情に同調して戻ってきます。</LS_CloudSword.description>
+  <LS_CloudSword.tools.handle.label>柄</LS_CloudSword.tools.handle.label>
+  <LS_CloudSword.tools.cleave.label>切断</LS_CloudSword.tools.cleave.label>
+  <LS_CloudSword.tools.maw.label>薙ぎ払い</LS_CloudSword.tools.maw.label>
+  <LS_CloudSword.tools.tornado.label>旋風</LS_CloudSword.tools.tornado.label>
+  <LS_CloudSword.tools.storm.label>竜巻</LS_CloudSword.tools.storm.label>
+  <LS_CloudSword.tools.blade.label>刃</LS_CloudSword.tools.blade.label>
+  <LS_CloudSword.tools.trinity.label>凶斬り</LS_CloudSword.tools.trinity.label>
+  <LS_CloudSword.tools.assault.label>突撃</LS_CloudSword.tools.assault.label>
+  <LS_CloudSword.tools.flashback.label>フラッシュバック</LS_CloudSword.tools.flashback.label>
+  <LS_CloudSword.tools.strife.label>ストライフ </LS_CloudSword.tools.strife.label>
+  <!-- Nightfall -->
+  <LS_Nightfall.label>ドラゴン殺し</LS_Nightfall.label>
+  <LS_Nightfall.description>この伝説的な刀は恐らく無名の鍛冶職人に鍛えられたと思われます。巨大過ぎて、その重さで最強の戦士でなければ持ち上げられない。暗黒物質の合金でできた剣は周囲の光を吸収します。刃に付いた小さな傷は猛毒のブラックウィドウを注入するのに十分であり、怪我をした相手の意識と能力に重大な影響を与えます。この剣は常に不自然なまでに鋭く、暗闇の中で激しく振り回すと剣が見えなくなります。\n\nこの武器は、右手で複数の相手を切り裂けて、一人で敵の群れを薙ぎ払うことができます。</LS_Nightfall.description>
+  <LS_Nightfall.tools.handle.label>柄</LS_Nightfall.tools.handle.label>
+  <LS_Nightfall.tools.cleave.label>切断</LS_Nightfall.tools.cleave.label>
+  <LS_Nightfall.tools.maw.label>薙ぎ払い</LS_Nightfall.tools.maw.label>
+  <LS_Nightfall.tools.vanish.label>消滅</LS_Nightfall.tools.vanish.label>
+  <LS_Nightfall.tools.venom.label>猛毒</LS_Nightfall.tools.venom.label>
+  <LS_Nightfall.tools.shadows.label>闇</LS_Nightfall.tools.shadows.label>
+  <LS_Nightfall.tools.blade.label>刃</LS_Nightfall.tools.blade.label>
+  <LS_Nightfall.tools.impale.label>刺突</LS_Nightfall.tools.impale.label>
+  <LS_Nightfall.tools.void.label>虚無</LS_Nightfall.tools.void.label>
+  <!-- Executioner -->
+  <LS_Executioner.label>首斬り包丁</LS_Executioner.label>
+  <LS_Executioner.description>この伝説的な刀は恐らく無名の鍛冶職人に鍛えられたと思われます。巨大過ぎて、その重量は両手でしか扱いきれません。幾重にも積み重なった鋼は何十時間もの作業で製造されました。剣は信じられないほど硬く、紙のようにあらゆる肉と骨を切断します。戦いで怒りと恐怖に駆られ、別の生命体を急所を断ち切ると小さな呼吸音だけが聞こえてきます。\n\nこの剣は相手を凍り付かせます。</LS_Executioner.description>
+  <LS_Executioner.tools.handle.label>柄</LS_Executioner.tools.handle.label>
+  <LS_Executioner.tools.cleave.label>切断</LS_Executioner.tools.cleave.label>
+  <LS_Executioner.tools.maw.label>薙ぎ払い</LS_Executioner.tools.maw.label>
+  <LS_Executioner.tools.freeze.label>麻痺</LS_Executioner.tools.freeze.label>
+  <LS_Executioner.tools.wind.label>風切</LS_Executioner.tools.wind.label>
+  <LS_Executioner.tools.slide.label>斬り落し</LS_Executioner.tools.slide.label>
+  <LS_Executioner.tools.blade.label>刃</LS_Executioner.tools.blade.label>
+  <LS_Executioner.tools.throatcutter.label>急所斬り</LS_Executioner.tools.throatcutter.label>
+  <LS_Executioner.tools.behead.label>斬首</LS_Executioner.tools.behead.label>
+  <!-- Deathbringer -->
+  <LS_Deathbringer.label>デスブリンガー</LS_Deathbringer.label>
+  <LS_Deathbringer.description>この伝説的な刀は恐らく無名の鍛冶職人に鍛えられたと思われます。巨大過ぎて、その重量は両手でしか扱いきれません。抽象的な剣の形には、刃の周囲に適切に付けられているフェンリスの牙があり、使用者は接近戦で相手を武器を落とさせたり解除することができます。剣が接れると、傷口が大きく開いて血の噴き出します。</LS_Deathbringer.description>
+  <LS_Deathbringer.tools.handle.label>柄</LS_Deathbringer.tools.handle.label>
+  <LS_Deathbringer.tools.cleave.label>切断</LS_Deathbringer.tools.cleave.label>
+  <LS_Deathbringer.tools.maw.label>薙ぎ払い</LS_Deathbringer.tools.maw.label>
+  <LS_Deathbringer.tools.strike.label>一撃</LS_Deathbringer.tools.strike.label>
+  <LS_Deathbringer.tools.dismantle.label>解除</LS_Deathbringer.tools.dismantle.label>
+  <LS_Deathbringer.tools.counter.label>反撃</LS_Deathbringer.tools.counter.label>
+  <LS_Deathbringer.tools.blade.label>刃</LS_Deathbringer.tools.blade.label>
+  <LS_Deathbringer.tools.riposte.label>反射</LS_Deathbringer.tools.riposte.label>
+  <LS_Deathbringer.tools.blood_rain.label>ブラッドレイン</LS_Deathbringer.tools.blood_rain.label>
+  <!-- Red Queen -->
+  <LS_RedQueen.label>レッドクイーン</LS_RedQueen.label>
+  <LS_RedQueen.description>この伝説的な武器は、暗闇と混乱の時代に容赦ない悪魔の大群から自分自身を守るために、魔剣教団によって作られた伝説の武器です。教団の主任錬金術師によってデザインされたこの武器は、両手での使用を想定しており、まるでオートバイのようなハンドルを持ち、刃に沿って燃焼剤の炎が燃え上がり、刀身に触れる蛮勇な相手を炎上させます。</LS_RedQueen.description>
+  <LS_RedQueen.tools.handle.label>柄</LS_RedQueen.tools.handle.label>
+  <LS_RedQueen.tools.cleave.label>切断</LS_RedQueen.tools.cleave.label>
+  <LS_RedQueen.tools.maw.label>薙ぎ払い</LS_RedQueen.tools.maw.label>
+  <LS_RedQueen.tools.exceed.label>イクシード</LS_RedQueen.tools.exceed.label>
+  <LS_RedQueen.tools.nero.label>ネロ</LS_RedQueen.tools.nero.label>
+  <LS_RedQueen.tools.burst.label>バースト</LS_RedQueen.tools.burst.label>
+  <LS_RedQueen.tools.justice.label>ジャスティス</LS_RedQueen.tools.justice.label>
+  <LS_RedQueen.tools.firestorm.label>炎の嵐</LS_RedQueen.tools.firestorm.label>
+  <LS_RedQueen.tools.purification.label>浄化の炎</LS_RedQueen.tools.purification.label>
+  <LS_RedQueen.tools.demonhunter.label>デビルブレイカー</LS_RedQueen.tools.demonhunter.label>
+  <LS_RedQueen.tools.whirlwind.label>ルーレットスピン</LS_RedQueen.tools.whirlwind.label>
+</LanguageData>

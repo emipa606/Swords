@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, LS_AncestralForge -->
+  <Make_LS_CloudSword.label>сделать штормовой меч</Make_LS_CloudSword.label>
+  <Make_LS_CloudSword.description>Сделать штормовой меч.</Make_LS_CloudSword.description>
+  <Make_LS_CloudSword.jobString>Делает штормовой меч.</Make_LS_CloudSword.jobString>
+  <Make_LS_Nightfall.label>сделать сумеречный меч</Make_LS_Nightfall.label>
+  <Make_LS_Nightfall.description>Сделать сумеречный меч.</Make_LS_Nightfall.description>
+  <Make_LS_Nightfall.jobString>Делает сумеречный меч.</Make_LS_Nightfall.jobString>
+  <Make_LS_Executioner.label>сделать палач</Make_LS_Executioner.label>
+  <Make_LS_Executioner.description>Сделать палач.</Make_LS_Executioner.description>
+  <Make_LS_Executioner.jobString>Делает палач.</Make_LS_Executioner.jobString>
+  <Make_LS_Deathbringer.label>сделать дарующий смерть</Make_LS_Deathbringer.label>
+  <Make_LS_Deathbringer.description>Сделать дарующий смерть.</Make_LS_Deathbringer.description>
+  <Make_LS_Deathbringer.jobString>Making deathbringer.</Make_LS_Deathbringer.jobString>
+  <Make_LS_RedQueen.label>сделать красную царицу</Make_LS_RedQueen.label>
+  <Make_LS_RedQueen.description>Сделать красную царицу.</Make_LS_RedQueen.description>
+  <Make_LS_RedQueen.jobString>Делает красную царицу.</Make_LS_RedQueen.jobString>
+</LanguageData>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Cloud Sword -->
+  <LS_CloudSword.label>штормовой меч</LS_CloudSword.label>
+  <LS_CloudSword.description>Меч легендарной мощи, выкованный неизвестным мастером кузнечного искусства. Массивный в размере, из-за его веса возможно только двуручное использование. Металл собирает шторм и окружающее электричество, чтобы развязать его в борьбе. Легкого прикосновения к лезвию достаточно, чтобы почувствовать едва уловимый ветерок, медленно набирающий силу и перерастающий в ревущий шторм и обратно в унисон с собственными эмоциями владельца.</LS_CloudSword.description>
+  <LS_CloudSword.tools.0.label>рукоять</LS_CloudSword.tools.0.label>
+  <LS_CloudSword.tools.1.label>раскол</LS_CloudSword.tools.1.label>
+  <LS_CloudSword.tools.2.label>глотка</LS_CloudSword.tools.2.label>
+  <LS_CloudSword.tools.3.label>торнадо</LS_CloudSword.tools.3.label>
+  <LS_CloudSword.tools.4.label>шторм</LS_CloudSword.tools.4.label>
+  <LS_CloudSword.tools.5.label>лезвие</LS_CloudSword.tools.5.label>
+  <LS_CloudSword.tools.6.label>троица</LS_CloudSword.tools.6.label>
+  <LS_CloudSword.tools.7.label>штурм</LS_CloudSword.tools.7.label>
+  <LS_CloudSword.tools.8.label>ослепление</LS_CloudSword.tools.8.label>
+  <LS_CloudSword.tools.9.label>раздор</LS_CloudSword.tools.9.label>
+  <!-- Nightfall -->
+  <LS_Nightfall.label>сумеречный меч</LS_Nightfall.label>
+  <LS_Nightfall.description>Меч легендарной мощи, выкованный неизвестным мастером кузнечного искусства. Массивный по размеру, из-за его веса он может быть поднят только сильнейшими руками. Сплав темной материи пожирает окружающий свет. Небольшого пореза его клинком достаточно, чтобы нанести поцелуй черного яда, сильно влияющего на восприятие и способности жертвы вовремя. Он всегда остается неестественно острым и, кажется, исчезает в темноте при тяжелом взмахе. В умелых руках это оружие способно рассекать множество целей, по-настоящему уничтожая орды самостоятельно.</LS_Nightfall.description>
+  <LS_Nightfall.tools.0.label>рукоять</LS_Nightfall.tools.0.label>
+  <LS_Nightfall.tools.1.label>раскол</LS_Nightfall.tools.1.label>
+  <LS_Nightfall.tools.2.label>глотка</LS_Nightfall.tools.2.label>
+  <LS_Nightfall.tools.3.label>исчезновение</LS_Nightfall.tools.3.label>
+  <LS_Nightfall.tools.4.label>яд</LS_Nightfall.tools.4.label>
+  <LS_Nightfall.tools.5.label>тени</LS_Nightfall.tools.5.label>
+  <LS_Nightfall.tools.6.label>лезвие</LS_Nightfall.tools.6.label>
+  <LS_Nightfall.tools.7.label>прокалывание</LS_Nightfall.tools.7.label>
+  <LS_Nightfall.tools.8.label>пустота</LS_Nightfall.tools.8.label>
+  <!-- Executioner -->
+  <LS_Executioner.label>палач</LS_Executioner.label>
+  <LS_Executioner.description>Меч легендарной мощи, выкованный выдающимся кузнецом с неизвестным именем. Массивный в размере, его вес позволяет только двуручное использование. Укрепленная сталь была сделана за много-много часов работы. Она невероятно твердая и прорезает плоть и кости любого вида как бумагу. Разъяренный и испуганный в бою, вы услышите тихие вопли, когда он прорезает еще один круг жизни. Пробуждает злобу в воине. Лезвие холодное как лед.</LS_Executioner.description>
+  <LS_Executioner.tools.0.label>рукоять</LS_Executioner.tools.0.label>
+  <LS_Executioner.tools.1.label>раскол</LS_Executioner.tools.1.label>
+  <LS_Executioner.tools.2.label>глотка</LS_Executioner.tools.2.label>
+  <LS_Executioner.tools.3.label>мороз</LS_Executioner.tools.3.label>
+  <LS_Executioner.tools.4.label>ветер</LS_Executioner.tools.4.label>
+  <LS_Executioner.tools.5.label>скольжение</LS_Executioner.tools.5.label>
+  <LS_Executioner.tools.6.label>лезвие</LS_Executioner.tools.6.label>
+  <LS_Executioner.tools.7.label>горлорез</LS_Executioner.tools.7.label>
+  <LS_Executioner.tools.8.label>обезглавливание</LS_Executioner.tools.8.label>
+  <!-- Deathbringer -->
+  <LS_Deathbringer.label>дарующий смерть</LS_Deathbringer.label>
+  <LS_Deathbringer.description>Меч легендарной мощи, выкованный выдающимся и неизвестным кузнецом. Массивный в размере, его вес позволяет поднять меч лишь двумя руками. Концептуальная форма включает четкое расположенные клыков Фенриса вокруг лезвия, позволяя владельцу разоружить или устранить любого противника в ближнем бою. Любой контакт с металлом вызывает зияющие раны и сильное кровотечение. Один из очень немногих в своем роде.</LS_Deathbringer.description>
+  <LS_Deathbringer.tools.0.label>рукоять</LS_Deathbringer.tools.0.label>
+  <LS_Deathbringer.tools.1.label>раскол</LS_Deathbringer.tools.1.label>
+  <LS_Deathbringer.tools.2.label>глотка</LS_Deathbringer.tools.2.label>
+  <LS_Deathbringer.tools.3.label>удар</LS_Deathbringer.tools.3.label>
+  <LS_Deathbringer.tools.4.label>ликвидация</LS_Deathbringer.tools.4.label>
+  <LS_Deathbringer.tools.5.label>стойка</LS_Deathbringer.tools.5.label>
+  <LS_Deathbringer.tools.6.label>лезвие</LS_Deathbringer.tools.6.label>
+  <LS_Deathbringer.tools.7.label>выпад</LS_Deathbringer.tools.7.label>
+  <LS_Deathbringer.tools.8.label>кровопускание</LS_Deathbringer.tools.8.label>
+  <!-- Red Queen -->
+  <LS_RedQueen.label>красная царевна</LS_RedQueen.label>
+  <LS_RedQueen.description>Оружие легендарной мощи, выкованное орденом Меча для Святого рыцаря, чтобы защитить своих от безжалостных демонических орд во времена тьмы и хаоса. Разработанное главным алхимиком ордена это оружие предназначено для двуручного использования и имеет похожую на мотоцикл рукоятку, которая распространяет жидкий огонь по лезвию, поджигая любого, кто осмелится прикоснуться к лезвию.</LS_RedQueen.description>
+  <LS_RedQueen.tools.0.label>рукоять</LS_RedQueen.tools.0.label>
+  <LS_RedQueen.tools.1.label>раскол</LS_RedQueen.tools.1.label>
+  <LS_RedQueen.tools.2.label>глотка</LS_RedQueen.tools.2.label>
+  <LS_RedQueen.tools.3.label>превосхождение</LS_RedQueen.tools.3.label>
+  <LS_RedQueen.tools.4.label>неро</LS_RedQueen.tools.4.label>
+  <LS_RedQueen.tools.5.label>разрыв</LS_RedQueen.tools.5.label>
+  <LS_RedQueen.tools.6.label>судья</LS_RedQueen.tools.6.label>
+  <LS_RedQueen.tools.7.label>огненный шквал</LS_RedQueen.tools.7.label>
+  <LS_RedQueen.tools.8.label>очистка</LS_RedQueen.tools.8.label>
+  <LS_RedQueen.tools.9.label>охотник на демонов</LS_RedQueen.tools.9.label>
+  <LS_RedQueen.tools.10.label>смерч</LS_RedQueen.tools.10.label>
+</LanguageData>

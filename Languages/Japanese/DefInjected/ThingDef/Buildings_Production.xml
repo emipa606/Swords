@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LS_AncestralForge.label>祖先の鍛冶場</LS_AncestralForge.label>
+  <LS_AncestralForge.description>燃料に薪を使った鍛冶場で、信じられないほどの力を武器に吹き込みます。創作意欲のやる気が無ければ扱えません。</LS_AncestralForge.description>
+  <Blueprint_LS_AncestralForge.label>祖先の鍛冶場(設計)</Blueprint_LS_AncestralForge.label>
+  <Blueprint_Install_LS_AncestralForge.label>祖先の鍛冶場(移動先)</Blueprint_Install_LS_AncestralForge.label>
+  <Frame_LS_AncestralForge.label>祖先の鍛冶場(施行)</Frame_LS_AncestralForge.label>
+  <Frame_LS_AncestralForge.description>燃料に薪を使った鍛冶場で、信じられないほどの力を武器に吹き込みます。創作意欲のやる気が無ければ扱えません。</Frame_LS_AncestralForge.description>
+</LanguageData>
