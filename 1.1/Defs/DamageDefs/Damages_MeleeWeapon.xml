@@ -7,7 +7,7 @@
     <additionalHediffs>
       <li>
         <hediff>ToxicBuildup</hediff>
-        <severityPerDamageDealt>0.001</severityPerDamageDealt>
+        <severityPerDamageDealt>0.01</severityPerDamageDealt>
         <victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
       </li>
     </additionalHediffs>
@@ -29,7 +29,7 @@
     <additionalHediffs>
       <li>
         <hediff>LS_BlackPoison</hediff>
-        <severityPerDamageDealt>0.001</severityPerDamageDealt>
+        <severityPerDamageDealt>0.01</severityPerDamageDealt>
       </li>
     </additionalHediffs>
   </DamageDef>
@@ -92,7 +92,7 @@
     <additionalHediffs>
       <li>
         <hediff>LS_BleedOut</hediff>
-        <severityPerDamageDealt>0.002</severityPerDamageDealt>
+        <severityPerDamageDealt>0.01</severityPerDamageDealt>
       </li>
     </additionalHediffs>
   </DamageDef>
@@ -128,7 +128,7 @@
     <additionalHediffs>
       <li>
         <hediff>LS_BleedOut</hediff>
-        <severityPerDamageDealt>0.002</severityPerDamageDealt>
+        <severityPerDamageDealt>0.01</severityPerDamageDealt>
       </li>
     </additionalHediffs>
   </DamageDef>
@@ -169,7 +169,7 @@
     <additionalHediffs>
       <li>
         <hediff>LS_CloudStrife</hediff>
-        <severityPerDamageDealt>0.0025</severityPerDamageDealt>
+        <severityPerDamageDealt>0.055</severityPerDamageDealt>
       </li>
     </additionalHediffs>
   </DamageDef>
@@ -192,7 +192,7 @@
     <additionalHediffs>
       <li>
         <hediff>LS_LiquidFire</hediff>
-        <severityPerDamageDealt>0.001</severityPerDamageDealt>
+        <severityPerDamageDealt>0.055</severityPerDamageDealt>
       </li>
     </additionalHediffs>
   </DamageDef>
@@ -214,7 +214,7 @@
     <additionalHediffs>
       <li>
         <hediff>LS_LiquidFire</hediff>
-        <severityPerDamageDealt>0.003</severityPerDamageDealt>
+        <severityPerDamageDealt>0.055</severityPerDamageDealt>
       </li>
     </additionalHediffs>
   </DamageDef>
