@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <!-- Loading Mechanics of Cybernetic Warfare and Special Weapons -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Cybernetic Warfare</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Capacity -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <ToolCapacityDef>
+              <defName>SlashKnockback</defName>
+            </ToolCapacityDef>
+          </value>
+        </li>
+        <!-- Maneuver -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <ManeuverDef>
+              <defName>SlashKnockback</defName>
+              <requiredCapacity>SlashKnockback</requiredCapacity>
+              <verb>
+                <verbClass>Verb_MeleeAttackDamage</verbClass>
+                <meleeDamageDef>SlashKnockback</meleeDamageDef>
+              </verb>
+              <logEntryDef>MeleeAttack</logEntryDef>
+              <combatLogRulesHit>Maneuver_Smash_MeleeHit</combatLogRulesHit>
+              <combatLogRulesDeflect>Maneuver_Smash_MeleeDeflect</combatLogRulesDeflect>
+              <combatLogRulesMiss>Maneuver_Smash_MeleeMiss</combatLogRulesMiss>
+              <combatLogRulesDodge>Maneuver_Smash_MeleeDodge</combatLogRulesDodge>
+            </ManeuverDef>
+          </value>
+        </li>
+        <!-- Damage -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <DamageDef ParentName="BluntBase">
+              <defName>SlashKnockback</defName>
+              <workerClass>CyberneticWarfare.DamageWorker_BluntKnockback</workerClass>
+              <modExtensions>
+                <li Class="CyberneticWarfare.DamageDefExtension">
+                  <knockbackDistancePerDamageDealt>0.1</knockbackDistancePerDamageDealt>
+                  <scaleKnockbackWithBodySize>true</scaleKnockbackWithBodySize>
+                  <hitBuildingStunDurationFactor>1</hitBuildingStunDurationFactor>
+                  <stunDuration>0</stunDuration>
+                </li>
+              </modExtensions>
+            </DamageDef>
+          </value>
+        </li>
+        <!-- Cloud -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="LS_CloudSword"]/tools/li[label="maw"]/capacities/li[text()="Cut"]</xpath>
+          <value>
+            <li>SlashKnockback</li>
+          </value>
+        </li>
+        <!-- Nightfall -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="LS_Nightfall"]/tools/li[label="maw"]/capacities/li[text()="Cut"]</xpath>
+          <value>
+            <li>SlashKnockback</li>
+          </value>
+        </li>
+        <!-- Executioner -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="LS_Executioner"]/tools/li[label="maw"]/capacities/li[text()="Cut"]</xpath>
+          <value>
+            <li>SlashKnockback</li>
+          </value>
+        </li>
+        <!-- Deathbringer -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="LS_Deathbringer"]/tools/li[label="maw"]/capacities/li[text()="Cut"]</xpath>
+          <value>
+            <li>SlashKnockback</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>JecsTools</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Damage -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <JecsTools.DamageDefCleave>
+              <defName>LegendarySwords_Cleave</defName>
+              <label>cleave</label>
+              <workerClass>JecsTools.DamageWorker_Cleave</workerClass>
+              <externalViolence>true</externalViolence>
+              <deathMessage>{0} has been slashed to death.</deathMessage>
+              <hediff>Cut</hediff>
+              <hediffSolid>Crack</hediffSolid>
+              <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+              <impactSoundType>Slice</impactSoundType>
+              <armorCategory>Sharp</armorCategory>
+              <cleaveFactor>0.75</cleaveFactor>
+              <cleaveDamage>Cut</cleaveDamage>
+            </JecsTools.DamageDefCleave>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <JecsTools.DamageDefCleave>
+              <defName>LegendarySwords_Flamewave</defName>
+              <label>flamewave</label>
+              <workerClass>JecsTools.DamageWorker_Cleave</workerClass>
+              <externalViolence>true</externalViolence>
+              <deathMessage>{0} has been pulverized.</deathMessage>
+              <hediff>Cut</hediff>
+              <hediffSolid>Crack</hediffSolid>
+              <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+              <impactSoundType>Slice</impactSoundType>
+              <armorCategory>Sharp</armorCategory>
+              <cleaveFactor>0.75</cleaveFactor>
+              <cleaveDamage>Burn</cleaveDamage>
+            </JecsTools.DamageDefCleave>
+          </value>
+        </li>
+        <!-- Capacity -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <ToolCapacityDef>
+              <defName>LS_CleaveMultipleTargets</defName>
+            </ToolCapacityDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <ToolCapacityDef>
+              <defName>LS_BurnMultipleTargets</defName>
+            </ToolCapacityDef>
+          </value>
+        </li>
+        <!-- Maneuver -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <ManeuverDef>
+              <defName>LS_CleaveMultipleTargets</defName>
+              <requiredCapacity>LS_CleaveMultipleTargets</requiredCapacity>
+              <verb>
+                <verbClass>Verb_MeleeAttackDamage</verbClass>
+                <meleeDamageDef>LegendarySwords_Cleave</meleeDamageDef>
+              </verb>
+              <logEntryDef>MeleeAttack</logEntryDef>
+              <combatLogRulesHit>Maneuver_Smash_MeleeHit</combatLogRulesHit>
+              <combatLogRulesDeflect>Maneuver_Smash_MeleeDeflect</combatLogRulesDeflect>
+              <combatLogRulesMiss>Maneuver_Smash_MeleeMiss</combatLogRulesMiss>
+              <combatLogRulesDodge>Maneuver_Smash_MeleeDodge</combatLogRulesDodge>
+            </ManeuverDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <ManeuverDef>
+              <defName>LS_BurnMultipleTargets</defName>
+              <requiredCapacity>LS_BurnMultipleTargets</requiredCapacity>
+              <verb>
+                <verbClass>Verb_MeleeAttackDamage</verbClass>
+                <meleeDamageDef>LegendarySwords_Flamewave</meleeDamageDef>
+              </verb>
+              <logEntryDef>MeleeAttack</logEntryDef>
+              <combatLogRulesHit>Maneuver_Smash_MeleeHit</combatLogRulesHit>
+              <combatLogRulesDeflect>Maneuver_Smash_MeleeDeflect</combatLogRulesDeflect>
+              <combatLogRulesMiss>Maneuver_Smash_MeleeMiss</combatLogRulesMiss>
+              <combatLogRulesDodge>Maneuver_Smash_MeleeDodge</combatLogRulesDodge>
+            </ManeuverDef>
+          </value>
+        </li>
+        <!-- Cleave activates with slash -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="LS_CloudSword"]/tools/li[label="cleave"]/capacities/li[text()="Cut"]</xpath>
+          <value>
+            <li>LS_CleaveMultipleTargets</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="LS_Nightfall"]/tools/li[label="cleave"]/capacities/li[text()="Cut"]</xpath>
+          <value>
+            <li>LS_CleaveMultipleTargets</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="LS_Executioner"]/tools/li[label="cleave"]/capacities/li[text()="Cut"]</xpath>
+          <value>
+            <li>LS_CleaveMultipleTargets</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="LS_Deathbringer"]/tools/li[label="cleave"]/capacities/li[text()="Cut"]</xpath>
+          <value>
+            <li>LS_CleaveMultipleTargets</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="LS_RedQueen"]/tools/li[label="cleave"]/capacities/li[text()="Cut"]</xpath>
+          <value>
+            <li>LS_BurnMultipleTargets</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

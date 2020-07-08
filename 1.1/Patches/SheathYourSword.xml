@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <!-- Mod Support for Sheath Your Sword -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>SheathYourSword</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Realistic drawSizes -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="LS_CloudSword" or defName="LS_Nightfall" or defName="LS_Executioner" or defName="LS_Deathbringer"]/graphicData/drawSize</xpath>
+          <value>
+            <drawSize>2.0</drawSize>
+          </value>
+        </li>
+        <!-- Sheath Your Sword GFX -->
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="LS_CloudSword"]/comps</xpath>
+          <value>
+            <li Class="SYS.CompProperties_Sheath">
+              <fullGraphicData>
+                <texPath>Things/Equipment/WeaponMelee/CloudSword</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <drawSize>2.0</drawSize>
+              </fullGraphicData>
+              <drawPosition>Back</drawPosition>
+              <northOffset>
+                <position>(0,0.05,0)</position>
+                <angle>95</angle>
+              </northOffset>
+              <southOffset>
+                <position>(0,0,0.1)</position>
+                <angle>95</angle>
+              </southOffset>
+              <eastOffset>
+                <position>(-0.25,0,0.1)</position>
+                <angle>115</angle>
+              </eastOffset>
+              <westOffset>
+                <position>(0.25,-0.03,0.1)</position>
+                <angle>100</angle>
+              </westOffset>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="LS_Nightfall"]/comps</xpath>
+          <value>
+            <li Class="SYS.CompProperties_Sheath">
+              <fullGraphicData>
+                <texPath>Things/Equipment/WeaponMelee/Nightfall</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <drawSize>2.0</drawSize>
+              </fullGraphicData>
+              <drawPosition>Back</drawPosition>
+              <northOffset>
+                <position>(0,0.05,0)</position>
+                <angle>95</angle>
+              </northOffset>
+              <southOffset>
+                <position>(0,0,0.1)</position>
+                <angle>95</angle>
+              </southOffset>
+              <eastOffset>
+                <position>(-0.25,0,0.0)</position>
+                <angle>120</angle>
+              </eastOffset>
+              <westOffset>
+                <position>(0.25,-0.03,0.1)</position>
+                <angle>100</angle>
+              </westOffset>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="LS_Executioner"]/comps</xpath>
+          <value>
+            <li Class="SYS.CompProperties_Sheath">
+              <fullGraphicData>
+                <texPath>Things/Equipment/WeaponMelee/Executioner</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <drawSize>2.0</drawSize>
+              </fullGraphicData>
+              <drawPosition>Back</drawPosition>
+              <northOffset>
+                <position>(0,0.05,0)</position>
+                <angle>95</angle>
+              </northOffset>
+              <southOffset>
+                <position>(0,0,0.1)</position>
+                <angle>95</angle>
+              </southOffset>
+              <eastOffset>
+                <position>(-0.25,0,0.1)</position>
+                <angle>145</angle>
+              </eastOffset>
+              <westOffset>
+                <position>(0.25,-0.03,0.1)</position>
+                <angle>100</angle>
+              </westOffset>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="LS_Deathbringer"]/comps</xpath>
+          <value>
+            <li Class="SYS.CompProperties_Sheath">
+              <fullGraphicData>
+                <texPath>Things/Equipment/WeaponMelee/Deathbringer</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <drawSize>2.0</drawSize>
+              </fullGraphicData>
+              <drawPosition>Back</drawPosition>
+              <northOffset>
+                <position>(0,0.05,0)</position>
+                <angle>95</angle>
+              </northOffset>
+              <southOffset>
+                <position>(0,0,0.1)</position>
+                <angle>95</angle>
+              </southOffset>
+              <eastOffset>
+                <position>(-0.05,0,0.1)</position>
+                <angle>115</angle>
+              </eastOffset>
+              <westOffset>
+                <position>(0.25,-0.03,0.1)</position>
+                <angle>100</angle>
+              </westOffset>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="LS_RedQueen"]/comps</xpath>
+          <value>
+            <li Class="SYS.CompProperties_Sheath">
+              <fullGraphicData>
+                <texPath>Things/Equipment/WeaponMelee/RedQueen</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <drawSize>2</drawSize>
+              </fullGraphicData>
+              <drawPosition>Back</drawPosition>
+              <northOffset>
+                <position>(0,0.05,0)</position>
+                <angle>95</angle>
+              </northOffset>
+              <southOffset>
+                <position>(0,0,0.1)</position>
+                <angle>95</angle>
+              </southOffset>
+              <eastOffset>
+                <position>(-0.05,0,0.1)</position>
+                <angle>125</angle>
+              </eastOffset>
+              <westOffset>
+                <position>(0.25,-0.03,0.1)</position>
+                <angle>100</angle>
+              </westOffset>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
