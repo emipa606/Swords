@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- might -->
+  <ThingCategoryDef>
+    <defName>LS_Might</defName>
+    <label>might</label>
+    <parent>Weapons</parent>
+  </ThingCategoryDef>
+  <!-- magic
+    <ThingCategoryDef>
+      <defName>LS_Magic</defName>
+      <label>magic</label>
+      <parent>Weapons</parent>
+	</ThingCategoryDef> -->
+</Defs>

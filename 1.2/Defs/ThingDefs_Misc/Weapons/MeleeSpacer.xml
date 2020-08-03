@@ -1,0 +1,867 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Cloud Sword -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>LS_CloudSword</defName>
+    <label>cloud sword</label>
+    <description>A sword of legendary might smithed by an unknown master of forging art. Massive in size, its weight permits only two-handed use. The metal gathers the storm and surrounding electricity to unleash it in fight. A light touch to the blade is enough to feel a barely perceptible breeze slowly gathering power and growing into roaring storm and back again in tune with wielder's own emotions.</description>
+    <graphicData>
+      <texPath>Things/Equipment/WeaponMelee/CloudSword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2.4</drawSize>
+      <onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <soundInteract>LS_SwordDraw</soundInteract>
+    <generateCommonality>0</generateCommonality>
+    <tickerType>Normal</tickerType>
+    <costList>
+      <Plasteel>300</Plasteel>
+      <Gold>20</Gold>
+      <Steel>100</Steel>
+    </costList>
+    <weaponTags Inherit="False" />
+    <!-- LegendarySword-->
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>49500</WorkToMake>
+      <Mass>8</Mass>
+    </statBases>
+    <equippedAngleOffset>-125</equippedAngleOffset>
+    <equippedStatOffsets>
+      <PsychicSensitivity>0.10</PsychicSensitivity>
+    </equippedStatOffsets>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>3.5</cooldownTime>
+        <chanceFactor>0.05</chanceFactor>
+      </li>
+      <li>
+        <label>cleave</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>3.5</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+        <armorPenetration>0.1</armorPenetration>
+      </li>
+      <li>
+        <label>maw</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>3.5</cooldownTime>
+        <armorPenetration>0.1</armorPenetration>
+        <chanceFactor>1.25</chanceFactor>
+      </li>
+      <li>
+        <label>tornado</label>
+        <capacities>
+          <li>LS_DarkClouds</li>
+          <!-- KickMaterialInEyes -->
+        </capacities>
+        <power>15</power>
+        <cooldownTime>3.5</cooldownTime>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+      <li>
+        <label>storm</label>
+        <capacities>
+          <li>LS_GatheringStorm</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>3.5</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>3.5</cooldownTime>
+        <armorPenetration>0.25</armorPenetration>
+      </li>
+      <li>
+        <label>trinity</label>
+        <capacities>
+          <li>LS_GatheringStorm</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>3.5</cooldownTime>
+        <armorPenetration>0.5</armorPenetration>
+        <chanceFactor>1.5</chanceFactor>
+      </li>
+      <li>
+        <label>assault</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>3.5</cooldownTime>
+        <armorPenetration>0.25</armorPenetration>
+      </li>
+      <li>
+        <label>flashback</label>
+        <capacities>
+          <li>LS_DarkClouds</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>3.5</cooldownTime>
+        <armorPenetration>0.25</armorPenetration>
+        <chanceFactor>1.5</chanceFactor>
+      </li>
+      <li>
+        <label>strife</label>
+        <capacities>
+          <li>LS_DarkClouds</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>3.5</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+      </li>
+    </tools>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>LS_AncestralForge</li>
+      </recipeUsers>
+      <researchPrerequisite>LS_BookOfWisdom</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>18</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <comps>
+      <li Class="BigChoppa.CompProperties_BigChoppa">
+        <angleAdjustmentWest>45</angleAdjustmentWest>
+        <angleAdjustmentEast>-45</angleAdjustmentEast>
+        <angleAdjustmentSouth>0</angleAdjustmentSouth>
+        <angleAdjustmentNorth>0</angleAdjustmentNorth>
+        <southOffset>(-0.65,0.0,0.95)</southOffset>
+        <eastOffset>(-0.65,0.0,0.95)</eastOffset>
+        <westOffset>(0.65,0.0,0.95)</westOffset>
+        <northOffset>(-0.65,0.0,0.95)</northOffset>
+        <chopsouthOffset>(0.1,0.0,-0.85)</chopsouthOffset>
+        <chopeastOffset>(0.95,0.0,-0.15)</chopeastOffset>
+        <chopwestOffset>(-0.95,0.0,-0.15)</chopwestOffset>
+        <chopnorthOffset>(0.1,0.0,1)</chopnorthOffset>
+        <newtargsouthOffset>(0.55, 0.0, 1.55)</newtargsouthOffset>
+        <newtargeastOffset>(-1.1, 0.0, 0.15)</newtargeastOffset>
+        <newtargwestOffset>(1.1, 0.0, -0.05)</newtargwestOffset>
+        <newtargnorthOffset>(-0.05, 0.0, -1.1)</newtargnorthOffset>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>2.66</explosiveRadius>
+        <explosiveDamageType>EMP</explosiveDamageType>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>0.9</glowRadius>
+        <glowColor>(69, 77, 87, 0)</glowColor>
+      </li>
+      <li Class="CompExtraSounds.CompProperties_ExtraSounds">
+        <compClass>CompExtraSounds.CompExtraSounds</compClass>
+        <soundMiss>LS_SwordHeavyMiss</soundMiss>
+        <soundHitPawn>LS_MultipleCleave</soundHitPawn>
+        <soundHitBuilding>LS_BuildingSlash</soundHitBuilding>
+      </li>
+    </comps>
+    <thingCategories Inherit="False">
+      <li>LS_Might</li>
+    </thingCategories>
+  </ThingDef>
+  <!-- Nightfall -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>LS_Nightfall</defName>
+    <label>nightfall</label>
+    <description>A sword of legendary might smithed by an unknown master of forging art. Massive in size, its weight can only be lifted by the strongest of arms. The alloy of dark matter eats the surrounding light. A small cut by its blade is enough inflict a kiss of black poison, heavily affecting the victims perception and abilities on time. It always stays unnaturally sharp and seems to vanish in the dark on heavy swings. In the right hands this weapon is capable of cleaving multiple targets, truely mawing down hordes on its own.</description>
+    <graphicData>
+      <texPath>Things/Equipment/WeaponMelee/Nightfall</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2.4</drawSize>
+      <onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <soundInteract>LS_SwordDraw</soundInteract>
+    <generateCommonality>0</generateCommonality>
+    <tickerType>Normal</tickerType>
+    <costList>
+      <Plasteel>300</Plasteel>
+      <Uranium>200</Uranium>
+      <Steel>100</Steel>
+    </costList>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <weaponTags Inherit="False" />
+    <!-- LegendarySword-->
+    <statBases>
+      <WorkToMake>49500</WorkToMake>
+      <Mass>10</Mass>
+    </statBases>
+    <equippedAngleOffset>-125</equippedAngleOffset>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+    </equippedStatOffsets>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>4.0</cooldownTime>
+        <chanceFactor>0.05</chanceFactor>
+        <!-- <hediff>Dementia</hediff> -->
+      </li>
+      <li>
+        <label>cleave</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>4.0</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+        <armorPenetration>0.1</armorPenetration>
+      </li>
+      <li>
+        <label>maw</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>4.0</cooldownTime>
+        <armorPenetration>0.1</armorPenetration>
+        <chanceFactor>1.25</chanceFactor>
+      </li>
+      <li>
+        <label>vanish</label>
+        <capacities>
+          <li>LS_BlackWidow</li>
+        </capacities>
+        <power>25</power>
+        <armorPenetration>0.5</armorPenetration>
+        <cooldownTime>4.0</cooldownTime>
+        <chanceFactor>1.75</chanceFactor>
+      </li>
+      <li>
+        <label>venom</label>
+        <capacities>
+          <li>LS_BlackWidow</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>4.0</cooldownTime>
+        <chanceFactor>2</chanceFactor>
+      </li>
+      <li>
+        <label>shadows</label>
+        <capacities>
+          <li>LS_DarkVeil</li>
+        </capacities>
+        <power>35</power>
+        <armorPenetration>0.25</armorPenetration>
+        <cooldownTime>4.0</cooldownTime>
+        <chanceFactor>2</chanceFactor>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>4.0</cooldownTime>
+      </li>
+      <li>
+        <label>impale</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>40</power>
+        <armorPenetration>0.5</armorPenetration>
+        <cooldownTime>4.0</cooldownTime>
+      </li>
+      <li>
+        <label>void</label>
+        <capacities>
+          <li>LS_DarkVeil</li>
+        </capacities>
+        <power>40</power>
+        <armorPenetration>0.5</armorPenetration>
+        <cooldownTime>4.0</cooldownTime>
+        <!-- <hediff>Carcinoma</hediff> -->
+      </li>
+    </tools>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>LS_AncestralForge</li>
+      </recipeUsers>
+      <researchPrerequisite>LS_BookOfWisdom</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>18</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <comps>
+      <li Class="BigChoppa.CompProperties_BigChoppa">
+        <angleAdjustmentWest>45</angleAdjustmentWest>
+        <angleAdjustmentEast>-45</angleAdjustmentEast>
+        <angleAdjustmentSouth>0</angleAdjustmentSouth>
+        <angleAdjustmentNorth>0</angleAdjustmentNorth>
+        <southOffset>(-0.65,0.0,0.95)</southOffset>
+        <eastOffset>(-0.85,0.0,0.95)</eastOffset>
+        <westOffset>(0.85,0.0,0.95)</westOffset>
+        <northOffset>(-0.65,0.0,0.95)</northOffset>
+        <chopsouthOffset>(0.1,0.0,-0.85)</chopsouthOffset>
+        <chopeastOffset>(0.95,0.0,-0.15)</chopeastOffset>
+        <chopwestOffset>(-0.95,0.0,-0.15)</chopwestOffset>
+        <chopnorthOffset>(0.1,0.0,1)</chopnorthOffset>
+        <newtargsouthOffset>(0.55, 0.0, 1.55)</newtargsouthOffset>
+        <newtargeastOffset>(-1.1, 0.0, 0.15)</newtargeastOffset>
+        <newtargwestOffset>(1.1, 0.0, -0.05)</newtargwestOffset>
+        <newtargnorthOffset>(-0.05, 0.0, -1.1)</newtargnorthOffset>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>4.9</explosiveRadius>
+        <explosiveDamageType>BombSuper</explosiveDamageType>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>0.9</glowRadius>
+        <glowColor>(16, 68, 48, 0)</glowColor>
+      </li>
+      <li Class="CompExtraSounds.CompProperties_ExtraSounds">
+        <compClass>CompExtraSounds.CompExtraSounds</compClass>
+        <soundMiss>LS_SwordHeavyMiss</soundMiss>
+        <soundHitPawn>LS_MultipleCleave</soundHitPawn>
+        <soundHitBuilding>LS_BuildingSlash</soundHitBuilding>
+      </li>
+    </comps>
+    <thingCategories Inherit="False">
+      <li>LS_Might</li>
+    </thingCategories>
+  </ThingDef>
+  <!-- Executioner -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>LS_Executioner</defName>
+    <label>executioner</label>
+    <description>A sword of legendary might smithed by an exceptional blacksmith of unknown name. Massive in size, its weight permits only two-handed use. The multi-layered steel was done in many, many hours of working. It is incredible hard and cuts through flesh and bones of any kind like paper. Furious and feared in battle, you hear silent wails, when it cuts through another lifeline.\n\nAwakens the malice in one. The blade is freezing cold.</description>
+    <graphicData>
+      <texPath>Things/Equipment/WeaponMelee/Executioner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2.4</drawSize>
+      <onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <soundInteract>LS_SwordSheath</soundInteract>
+    <generateCommonality>0</generateCommonality>
+    <tickerType>Normal</tickerType>
+    <costList>
+      <Uranium>300</Uranium>
+      <Steel>200</Steel>
+      <Plasteel>100</Plasteel>
+    </costList>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <weaponTags Inherit="False" />
+    <!-- LegendarySword-->
+    <statBases>
+      <WorkToMake>49500</WorkToMake>
+      <Mass>10</Mass>
+      <Beauty>-5</Beauty>
+    </statBases>
+    <equippedAngleOffset>-125</equippedAngleOffset>
+    <equippedStatOffsets>
+      <PsychicSensitivity>-0.10</PsychicSensitivity>
+    </equippedStatOffsets>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>4.0</cooldownTime>
+        <chanceFactor>0.05</chanceFactor>
+      </li>
+      <li>
+        <label>cleave</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>4.0</cooldownTime>
+        <armorPenetration>0.1</armorPenetration>
+      </li>
+      <li>
+        <label>maw</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>4.0</cooldownTime>
+        <armorPenetration>0.1</armorPenetration>
+      </li>
+      <li>
+        <label>freeze</label>
+        <capacities>
+          <li>LS_FrozenHeart</li>
+        </capacities>
+        <power>25</power>
+        <armorPenetration>0.5</armorPenetration>
+        <cooldownTime>4.0</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+      </li>
+      <li>
+        <label>wind</label>
+        <capacities>
+          <li>LS_FrozenHeart</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>3.0</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+      </li>
+      <li>
+        <label>slide</label>
+        <capacities>
+          <li>LS_FrozenHeart</li>
+        </capacities>
+        <power>32</power>
+        <armorPenetration>0.25</armorPenetration>
+        <cooldownTime>4.0</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+      <li>
+        <label>throatcutter</label>
+        <capacities>
+          <li>LS_ExecutionersCalling</li>
+        </capacities>
+        <power>36</power>
+        <armorPenetration>0.5</armorPenetration>
+        <cooldownTime>4.0</cooldownTime>
+        <chanceFactor>0.25</chanceFactor>
+      </li>
+      <li>
+        <label>behead</label>
+        <capacities>
+          <li>LS_ExecutionersCalling</li>
+        </capacities>
+        <power>36</power>
+        <armorPenetration>0.5</armorPenetration>
+        <cooldownTime>4.0</cooldownTime>
+        <chanceFactor>0.1</chanceFactor>
+      </li>
+    </tools>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>LS_AncestralForge</li>
+      </recipeUsers>
+      <researchPrerequisite>LS_BookOfWisdom</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>18</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <comps>
+      <li Class="BigChoppa.CompProperties_BigChoppa">
+        <angleAdjustmentWest>45</angleAdjustmentWest>
+        <angleAdjustmentEast>-45</angleAdjustmentEast>
+        <angleAdjustmentSouth>0</angleAdjustmentSouth>
+        <angleAdjustmentNorth>0</angleAdjustmentNorth>
+        <southOffset>(-0.65,0.0,0.95)</southOffset>
+        <eastOffset>(-0.85,0.0,0.95)</eastOffset>
+        <westOffset>(0.85,0.0,0.95)</westOffset>
+        <northOffset>(-0.65,0.0,0.95)</northOffset>
+        <chopsouthOffset>(0.1,0.0,-0.85)</chopsouthOffset>
+        <chopeastOffset>(0.95,0.0,-0.15)</chopeastOffset>
+        <chopwestOffset>(-0.95,0.0,-0.15)</chopwestOffset>
+        <chopnorthOffset>(0.1,0.0,1)</chopnorthOffset>
+        <newtargsouthOffset>(0.55, 0.0, 1.55)</newtargsouthOffset>
+        <newtargeastOffset>(-1.1, 0.0, 0.15)</newtargeastOffset>
+        <newtargwestOffset>(1.1, 0.0, -0.05)</newtargwestOffset>
+        <newtargnorthOffset>(-0.05, 0.0, -1.1)</newtargnorthOffset>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3.9</explosiveRadius>
+        <explosiveDamageType>Flame</explosiveDamageType>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>0.9</glowRadius>
+        <glowColor>(93, 93, 0, 0)</glowColor>
+      </li>
+      <li Class="CompExtraSounds.CompProperties_ExtraSounds">
+        <compClass>CompExtraSounds.CompExtraSounds</compClass>
+        <soundMiss>LS_SwordMiss</soundMiss>
+        <soundHitPawn>LS_SwordHit</soundHitPawn>
+        <soundHitBuilding>LS_SwordParry</soundHitBuilding>
+      </li>
+    </comps>
+    <thingCategories Inherit="False">
+      <li>LS_Might</li>
+    </thingCategories>
+  </ThingDef>
+  <!-- Deathbringer -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>LS_Deathbringer</defName>
+    <label>deathbringer</label>
+    <description>A sword of legendary might smithed by an exceptional blacksmith of unknown name. Massive in size, its weight permits only two-handed use. The conceptual form involves well placed fenris fangs around the blade, allowing the wearer to disarm or dismantle any opponent in close combat. Any contact with the metal causes gaping wounds and heavy bleedings.\n\nOne of very few of its kind.</description>
+    <graphicData>
+      <texPath>Things/Equipment/WeaponMelee/Deathbringer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2.4</drawSize>
+      <onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <soundInteract>LS_SwordSheath</soundInteract>
+    <generateCommonality>0</generateCommonality>
+    <tickerType>Normal</tickerType>
+    <costList>
+      <Plasteel>300</Plasteel>
+      <Steel>200</Steel>
+      <Uranium>100</Uranium>
+    </costList>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <weaponTags Inherit="False" />
+    <!-- LegendarySword-->
+    <statBases>
+      <WorkToMake>49500</WorkToMake>
+      <Mass>10</Mass>
+      <Beauty>-2</Beauty>
+    </statBases>
+    <equippedAngleOffset>-125</equippedAngleOffset>
+    <equippedStatOffsets>
+      <PsychicSensitivity>-0.10</PsychicSensitivity>
+    </equippedStatOffsets>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>4.0</cooldownTime>
+        <chanceFactor>0.05</chanceFactor>
+        <!-- <hediff>Frail</hediff> -->
+      </li>
+      <li>
+        <label>cleave</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>4.0</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+        <armorPenetration>0.1</armorPenetration>
+      </li>
+      <li>
+        <label>maw</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>4.0</cooldownTime>
+        <armorPenetration>0.1</armorPenetration>
+        <chanceFactor>1.5</chanceFactor>
+      </li>
+      <li>
+        <label>strike</label>
+        <capacities>
+          <li>LS_BloodLust</li>
+        </capacities>
+        <power>25</power>
+        <armorPenetration>0.5</armorPenetration>
+        <cooldownTime>4.0</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+      </li>
+      <li>
+        <label>dismantle</label>
+        <capacities>
+          <li>LS_MoonLight</li>
+        </capacities>
+        <power>27</power>
+        <cooldownTime>4.0</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+      </li>
+      <li>
+        <label>counter</label>
+        <capacities>
+          <li>LS_MoonLight</li>
+        </capacities>
+        <power>32</power>
+        <armorPenetration>0.25</armorPenetration>
+        <cooldownTime>3.0</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>4.0</cooldownTime>
+      </li>
+      <li>
+        <label>riposte</label>
+        <capacities>
+          <li>LS_MoonLight</li>
+        </capacities>
+        <power>32</power>
+        <armorPenetration>0.5</armorPenetration>
+        <cooldownTime>4.0</cooldownTime>
+      </li>
+      <li>
+        <label>blood rain</label>
+        <capacities>
+          <li>LS_BloodLust</li>
+        </capacities>
+        <power>35</power>
+        <armorPenetration>0.5</armorPenetration>
+        <cooldownTime>3.0</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>LS_AncestralForge</li>
+      </recipeUsers>
+      <researchPrerequisite>LS_BookOfWisdom</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>18</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <comps>
+      <li Class="BigChoppa.CompProperties_BigChoppa">
+        <angleAdjustmentWest>45</angleAdjustmentWest>
+        <angleAdjustmentEast>-45</angleAdjustmentEast>
+        <angleAdjustmentSouth>0</angleAdjustmentSouth>
+        <angleAdjustmentNorth>0</angleAdjustmentNorth>
+        <southOffset>(-0.65,0.0,0.95)</southOffset>
+        <eastOffset>(-0.65,0.0,0.95)</eastOffset>
+        <westOffset>(0.65,0.0,0.95)</westOffset>
+        <northOffset>(-0.65,0.0,0.95)</northOffset>
+        <chopsouthOffset>(0.1,0.0,-0.85)</chopsouthOffset>
+        <chopeastOffset>(0.95,0.0,-0.15)</chopeastOffset>
+        <chopwestOffset>(-0.95,0.0,-0.15)</chopwestOffset>
+        <chopnorthOffset>(0.1,0.0,1)</chopnorthOffset>
+        <newtargsouthOffset>(0.55, 0.0, 1.55)</newtargsouthOffset>
+        <newtargeastOffset>(-1.1, 0.0, 0.15)</newtargeastOffset>
+        <newtargwestOffset>(1.1, 0.0, -0.05)</newtargwestOffset>
+        <newtargnorthOffset>(-0.05, 0.0, -1.1)</newtargnorthOffset>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>2.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>0.9</glowRadius>
+        <glowColor>(95, 28, 25, 0)</glowColor>
+      </li>
+      <li Class="CompExtraSounds.CompProperties_ExtraSounds">
+        <compClass>CompExtraSounds.CompExtraSounds</compClass>
+        <soundMiss>LS_SwordMiss</soundMiss>
+        <soundHitPawn>LS_SwordHeavyHit</soundHitPawn>
+        <soundHitBuilding>LS_SwordParry</soundHitBuilding>
+      </li>
+    </comps>
+    <thingCategories Inherit="False">
+      <li>LS_Might</li>
+    </thingCategories>
+  </ThingDef>
+  <!-- Red Queen -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>LS_RedQueen</defName>
+    <label>red queen</label>
+    <description>A weapon of legendary might forged by the Order of the Sword for a holy knight, to protect their own against the relentless demonic hordes in a time of darkness and chaos. Designed by the Order's Chief Alchemist this weapon is intended for two-handed use and has a motorcycle-like handle, that spreads liquid fire along the blade, setting ablaze anyone, who dares to touch the edge.</description>
+    <graphicData>
+      <texPath>Things/Equipment/WeaponMelee/RedQueen</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2.0</drawSize>
+      <onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <soundInteract>LS_SwordSheath</soundInteract>
+    <generateCommonality>0</generateCommonality>
+    <tickerType>Normal</tickerType>
+    <costList>
+      <Plasteel>300</Plasteel>
+      <Gold>20</Gold>
+      <Uranium>100</Uranium>
+    </costList>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <weaponTags Inherit="False" />
+    <!-- LegendarySword-->
+    <statBases>
+      <WorkToMake>49500</WorkToMake>
+      <Mass>10</Mass>
+      <Beauty>-2</Beauty>
+    </statBases>
+    <equippedAngleOffset>-125</equippedAngleOffset>
+    <equippedStatOffsets>
+      <MentalBreakThreshold>0.10</MentalBreakThreshold>
+    </equippedStatOffsets>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>4.0</cooldownTime>
+        <chanceFactor>0.05</chanceFactor>
+      </li>
+      <li>
+        <label>cleave</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>23</power>
+        <cooldownTime>4.0</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+        <armorPenetration>0.1</armorPenetration>
+      </li>
+      <li>
+        <label>maw</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>23</power>
+        <cooldownTime>4.0</cooldownTime>
+        <armorPenetration>0.1</armorPenetration>
+      </li>
+      <li>
+        <label>exceed</label>
+        <capacities>
+          <li>LS_InfernoBlade</li>
+        </capacities>
+        <power>30</power>
+        <armorPenetration>0.5</armorPenetration>
+        <cooldownTime>3.0</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+      </li>
+      <li>
+        <label>nero</label>
+        <capacities>
+          <li>LS_Firestorm</li>
+        </capacities>
+        <power>29</power>
+        <cooldownTime>4.0</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+      </li>
+      <li>
+        <label>burst</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>20</power>
+        <armorPenetration>0.25</armorPenetration>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+      <li>
+        <label>justice</label>
+        <capacities>
+          <li>LS_InfernoBlade</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>5.0</cooldownTime>
+        <armorPenetration>0.75</armorPenetration>
+        <chanceFactor>1.5</chanceFactor>
+      </li>
+      <li>
+        <label>firestorm</label>
+        <capacities>
+          <li>LS_Firestorm</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>4.0</cooldownTime>
+      </li>
+      <li>
+        <label>purification</label>
+        <capacities>
+          <li>LS_InfernoBlade</li>
+        </capacities>
+        <power>32</power>
+        <armorPenetration>0.5</armorPenetration>
+        <cooldownTime>4.0</cooldownTime>
+      </li>
+      <li>
+        <label>demonhunter</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>35</power>
+        <armorPenetration>0.5</armorPenetration>
+        <cooldownTime>3.0</cooldownTime>
+      </li>
+      <li>
+        <label>whirlwind</label>
+        <capacities>
+          <li>LS_Firestorm</li>
+        </capacities>
+        <power>40</power>
+        <cooldownTime>5.0</cooldownTime>
+        <armorPenetration>0.25</armorPenetration>
+      </li>
+    </tools>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>LS_AncestralForge</li>
+      </recipeUsers>
+      <researchPrerequisite>LS_BookOfWisdom</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>18</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <comps>
+      <li Class="BigChoppa.CompProperties_BigChoppa">
+        <angleAdjustmentWest>45</angleAdjustmentWest>
+        <angleAdjustmentEast>-45</angleAdjustmentEast>
+        <angleAdjustmentSouth>0</angleAdjustmentSouth>
+        <angleAdjustmentNorth>0</angleAdjustmentNorth>
+        <southOffset>(-0.65,0.0,0.95)</southOffset>
+        <eastOffset>(-0.65,0.0,0.95)</eastOffset>
+        <westOffset>(0.65,0.0,0.95)</westOffset>
+        <northOffset>(-0.65,0.0,0.95)</northOffset>
+        <chopsouthOffset>(0.1,0.0,-0.85)</chopsouthOffset>
+        <chopeastOffset>(0.95,0.0,-0.15)</chopeastOffset>
+        <chopwestOffset>(-0.95,0.0,-0.15)</chopwestOffset>
+        <chopnorthOffset>(0.1,0.0,1)</chopnorthOffset>
+        <newtargsouthOffset>(0.55, 0.0, 1.55)</newtargsouthOffset>
+        <newtargeastOffset>(-1.1, 0.0, 0.15)</newtargeastOffset>
+        <newtargwestOffset>(1.1, 0.0, -0.05)</newtargwestOffset>
+        <newtargnorthOffset>(-0.05, 0.0, -1.1)</newtargnorthOffset>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>2.9</explosiveRadius>
+        <explosiveDamageType>Flame</explosiveDamageType>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>0.9</glowRadius>
+        <glowColor>(205, 28, 25, 0)</glowColor>
+      </li>
+      <li Class="CompExtraSounds.CompProperties_ExtraSounds">
+        <compClass>CompExtraSounds.CompExtraSounds</compClass>
+        <soundMiss>LS_SwordMiss</soundMiss>
+        <soundHitPawn>LS_SwordSlash</soundHitPawn>
+        <soundHitBuilding>LS_SwordParry</soundHitBuilding>
+      </li>
+    </comps>
+    <thingCategories Inherit="False">
+      <li>LS_Might</li>
+    </thingCategories>
+  </ThingDef>
+</Defs>
