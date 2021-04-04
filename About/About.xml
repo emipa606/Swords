@@ -13,71 +13,69 @@
     <li>
       <packageId>jecrell.jecstools</packageId>
       <displayName>JecsTools</displayName>
-      <steamWorkshopUrl>steam://url/CommunityFilePage/932008009</steamWorkshopUrl>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2195729899</steamWorkshopUrl>
     </li>
   </modDependencies>
   <loadAfter>
     <li>jecrell.jecstools</li>
     <li>CETeam.CombatExtended</li>
-    <li>ChJees.SupremeMelee</li>
-    <li>Solaris.SYS</li>
-    <li>VanillaExpanded.VWE</li>
-    <li>madman.toolsofthetrade</li>
-    <li>Mlie.CyberneticWarfare</li>
   </loadAfter>
-  <description>Update of Trunkens mod for RimWorld 1.1
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Trunkens mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1845180112
 
-[img]https://i.imgur.com/GYswkZ7.png[/img]
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
-Support-chat:
-https://invite.gg/mlie
-
-Non-steam version:
-https://github.com/emipa606/Swords
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/Swords][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
---- Original Description ---
-Version 1.0: Release.
-Version 1.1: Red Queen with Burn and Cleave added.
-Version 1.2: Compatibility for Sheath Your Sword and Combat Extended.
+[img]https://i.imgur.com/NOW7jU1.png[/img]
 
-Legendary Swords
+[b]Version 1.0:[/b] Release.
+[b]Version 1.1:[/b] Red Queen with Burn and Cleave added.
+[b]Version 1.2:[/b] Compatibility for Sheath Your Sword and Combat Extended.
+
+[h1]Legendary Swords[/h1]
 
 Grants access to a small collection of 5 swords made by legendary craftsmiths.
 
-- Cloud Sword (Storm)
-- Nightfall (Poison)
-- Executioner (Frost)
-- Deathbringer (Bleed)
-- Red Queen (Flame)
+ - Cloud Sword (Storm)
+ - Nightfall (Poison)
+ - Executioner (Frost)
+ - Deathbringer (Bleed)
+ - Red Queen (Flame)
 
 Each weapon has 8 attacks with different moves, hidden mechanics and effects. You can mow down your foes with powerful stabs and mighty slashes, let them slowly suffer by poison or behead them with a single, but well aimed hit. An inspiration, insight or blessing by the gods is necessary to smith these weapons at the Ancestral Forge.
 
-Requirements
+[h1]Requirements[/h1]
 
-- Skill: 18 Crafting
-- Technology Level: Medieval
-- Research: Book of Wisdom (Prequisites: LongBlades + PlateArmor)
-- Ancestral Forge: (Prequisites: Passive Cooler + Smithing)
-- Inspiration: Creativity
+ - Skill: 18 Crafting
+ - Technology Level: Medieval
+ - Research: Book of Wisdom (Prequisites: LongBlades + PlateArmor)
+ - Ancestral Forge: (Prequisites: Passive Cooler + Smithing)
+ - Inspiration: Creativity
 
-Compatibility and Loadorder
+[b]Compatibility and Loadorder[/b]
 
-- JecsTools (Maneuver)
-- Combat Extended (CE)
-- Supreme Melee (Link)
-- Sheath Your Sword (Link)
-- Vanilla Weapons Expanded (Link)
-- Vanilla Factions Expanded: Medieval (Link)
-- Medieval Madness ((Link)
-- Cybernetic Warfare and Special Weapons (Link)
-- Swords - load it here -
+ - JecsTools (Maneuver)
+ - Combat Extended (CE)
+ - Supreme Melee ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=1841138974]Link[/url])
+ - Sheath Your Sword ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=1586105873]Link[/url])
+ - Vanilla Weapons Expanded ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=1814383360]Link[/url])
+ - Vanilla Factions Expanded: Medieval ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=1854610483]Link[/url])
+ - Medieval Madness (([url=https://steamcommunity.com/sharedfiles/filedetails/?id=1851407975]Link[/url])
+ - Cybernetic Warfare and Special Weapons ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=1811369911]Link[/url])
+ - Swords [i]- load it here -[/i]
 
+[img]https://i.imgur.com/QNztxsA.png[/img]
 
+Bring a strong arm to handle the weight. [i]Made for titans.[/i]
 
-Bring a strong arm to handle the weight. Made for titans.
-
-Credits
+[h1]Credits[/h1]
 
 Inspired * by Ryflamer
 Ancestral Forge * by Oskar Potocki
@@ -89,7 +87,34 @@ Beta Testing * by Lyseria
 JecsTools * Jecrell
 Harmony * Padeike
 
-Translations
+[b]Translations[/b]
 Japanese 日本人 * by Proxyer
-Russian русский * by McMinox</description>
+Russian русский * by McMinox
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1814383360][img]https://i.imgur.com/bxmZ2LS.gif[/img][/url]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1814987817][img]https://i.imgur.com/lEkKUY5.gif[/img][/url]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1814988282][img]https://i.imgur.com/b1olXUF.gif[/img][/url]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1845154007][img]https://i.imgur.com/oGv7GUE.png[/img][/url]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1880253632][img]https://i.imgur.com/6oej4ER.png[/img][/url]
+
+[img]https://i.ibb.co/zQ824Lq/Steam-Workshop-Food-Bar-LAST.png[/img]
+
+Join us on Discord: https://discord.gg/sT4zdXt
+
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+

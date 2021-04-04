@@ -1,58 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Cut # Poison -->
-
   <LS_BlackPoison.label>black widow</LS_BlackPoison.label>
   <LS_BlackPoison.deathMessage>{0} has been killed.</LS_BlackPoison.deathMessage>
-
-
   <!-- Dark Veil # Shadows -->
-
   <LS_DarkShadows.label>dark shadows</LS_DarkShadows.label>
   <LS_DarkShadows.deathMessage>{0} has been stabbed to death out of nowhere.</LS_DarkShadows.deathMessage>
-
-
   <!-- Executioners # Behead -->
-
   <LS_DecapBehead.label>execution cut</LS_DecapBehead.label>
   <LS_DecapBehead.deathMessage>{0} has been decapitated.</LS_DecapBehead.deathMessage>
-
   <LS_FrozenBlade.label>frozen heart</LS_FrozenBlade.label>
   <LS_FrozenBlade.deathMessage>{0} has been frozen to death.</LS_FrozenBlade.deathMessage>
-
-
   <!-- Hemorrhage # Bleeding -->
-
   <LS_FenrisFang.label>fenris fang</LS_FenrisFang.label>
   <LS_FenrisFang.deathMessage>{0} has been sliced to death.</LS_FenrisFang.deathMessage>
-
-
   <!-- Bloodrain # Stun -->
-
   <LS_BloodRain.label>blood rain</LS_BloodRain.label>
   <LS_BloodRain.deathMessage>{0} has been ruptured apart.</LS_BloodRain.deathMessage>
-
-
   <!-- Storm Razor # Stun -->
-
   <LS_StormRazor.label>storm razor</LS_StormRazor.label>
   <LS_StormRazor.deathMessage>{0} has been dismantled to pieces.</LS_StormRazor.deathMessage>
-
-
   <!-- Flash -->
-
   <LS_FlashBack.label>conflict</LS_FlashBack.label>
   <LS_FlashBack.deathMessage>{0} has been killed.</LS_FlashBack.deathMessage>
-
-
   <!-- Hellfire -->
-
   <LS_FieryJustice.label>nero</LS_FieryJustice.label>
   <LS_FieryJustice.deathMessage>{0} has burned to ashes.</LS_FieryJustice.deathMessage>
-
   <LS_Hellfire.label>hellfire</LS_Hellfire.label>
   <LS_Hellfire.deathMessage>{0} has burned to ashes.</LS_Hellfire.deathMessage>
-
-
 </LanguageData>

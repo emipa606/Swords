@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Cloud Sword -->
-
   <LS_CloudSword.label>cloud sword</LS_CloudSword.label>
   <LS_CloudSword.description>A sword of legendary might smithed by an unknown master of forging art. Massive in size, its weight permits only two-handed use. The metal gathers the storm and surrounding electricity to unleash it in fight. A light touch to the blade is enough to feel a barely perceptible breeze slowly gathering power and growing into roaring storm and back again in tune with wielder's own emotions.</LS_CloudSword.description>
   <LS_CloudSword.tools.0.label>handle</LS_CloudSword.tools.0.label>
@@ -15,10 +13,7 @@
   <LS_CloudSword.tools.7.label>assault</LS_CloudSword.tools.7.label>
   <LS_CloudSword.tools.8.label>flashback</LS_CloudSword.tools.8.label>
   <LS_CloudSword.tools.9.label>strife</LS_CloudSword.tools.9.label>
-
-
   <!-- Nightfall -->
-
   <LS_Nightfall.label>nightfall</LS_Nightfall.label>
   <LS_Nightfall.description>A sword of legendary might smithed by an unknown master of forging art. Massive in size, its weight can only be lifted by the strongest of arms. The alloy of dark matter eats the surrounding light. A small cut by its blade is enough inflict a kiss of black poison, heavily affecting the victims perception and abilities on time. It always stays unnaturally sharp and seems to vanish in the dark on heavy swings. In the right hands this weapon is capable of cleaving multiple targets, truely mawing down hordes on its own.</LS_Nightfall.description>
   <LS_Nightfall.tools.0.label>handle</LS_Nightfall.tools.0.label>
@@ -30,10 +25,7 @@
   <LS_Nightfall.tools.6.label>blade</LS_Nightfall.tools.6.label>
   <LS_Nightfall.tools.7.label>impale</LS_Nightfall.tools.7.label>
   <LS_Nightfall.tools.8.label>void</LS_Nightfall.tools.8.label>
-
-
   <!-- Executioner -->
-
   <LS_Executioner.label>executioner</LS_Executioner.label>
   <LS_Executioner.description>A sword of legendary might smithed by an exceptional blacksmith of unknown name. Massive in size, its weight permits only two-handed use. The multi-layered steel was done in many, many hours of working. It is incredible hard and cuts through flesh and bones of any kind like paper. Furious and feared in battle, you hear silent wails, when it cuts through another lifeline.\n\nAwakens the malice in one. The blade is freezing cold.</LS_Executioner.description>
   <LS_Executioner.tools.0.label>handle</LS_Executioner.tools.0.label>
@@ -45,10 +37,7 @@
   <LS_Executioner.tools.6.label>blade</LS_Executioner.tools.6.label>
   <LS_Executioner.tools.7.label>throatcutter</LS_Executioner.tools.7.label>
   <LS_Executioner.tools.8.label>behead</LS_Executioner.tools.8.label>
-
-
   <!-- Deathbringer -->
-
   <LS_Deathbringer.label>deathbringer</LS_Deathbringer.label>
   <LS_Deathbringer.description>A sword of legendary might smithed by an exceptional blacksmith of unknown name. Massive in size, its weight permits only two-handed use. The conceptual form involves well placed fenris fangs around the blade, allowing the wearer to disarm or dismantle any opponent in close combat. Any contact with the metal causes gaping wounds and heavy bleedings.\n\nOne of very few of its kind.</LS_Deathbringer.description>
   <LS_Deathbringer.tools.0.label>handle</LS_Deathbringer.tools.0.label>
@@ -60,10 +49,7 @@
   <LS_Deathbringer.tools.6.label>blade</LS_Deathbringer.tools.6.label>
   <LS_Deathbringer.tools.7.label>riposte</LS_Deathbringer.tools.7.label>
   <LS_Deathbringer.tools.8.label>blood rain</LS_Deathbringer.tools.8.label>
-
-
   <!-- Red Queen -->
-
   <LS_RedQueen.label>red queen</LS_RedQueen.label>
   <LS_RedQueen.description>A weapon of legendary might forged by the Order of the Sword for a holy knight, to protect their own against the relentless demonic hordes in a time of darkness and chaos. Designed by the Order's Chief Alchemist this weapon is intended for two-handed use and has a motorcycle-like handle, that spreads liquid fire along the blade, setting ablaze anyone, who dares to touch the edge.</LS_RedQueen.description>
   <LS_RedQueen.tools.0.label>handle</LS_RedQueen.tools.0.label>
@@ -77,6 +63,4 @@
   <LS_RedQueen.tools.8.label>purification</LS_RedQueen.tools.8.label>
   <LS_RedQueen.tools.9.label>demonhunter</LS_RedQueen.tools.9.label>
   <LS_RedQueen.tools.10.label>whirlwind</LS_RedQueen.tools.10.label>
-
-
 </LanguageData>
