@@ -42,7 +42,7 @@ namespace BigChoppa
                 return true;
             }
 
-            var flag = false;
+            var flip = false;
             var num = aimAngle - 90f;
             var value = Traverse.Create(__instance).Field("pawn").GetValue<Pawn>();
             if (value == null)
@@ -50,21 +50,21 @@ namespace BigChoppa
                 return true;
             }
 
-            if (aimAngle > 20f && aimAngle < 160f)
+            if (aimAngle is > 20f and < 160f)
             {
                 var unused = MeshPool.plane10;
-                num += eq.def.equippedAngleOffset;
+                num += thingWithComps.def.equippedAngleOffset;
             }
-            else if (aimAngle > 200f && aimAngle < 340f)
+            else if (aimAngle is > 200f and < 340f)
             {
                 var unused = MeshPool.plane10Flip;
-                flag = true;
+                flip = true;
                 num -= 180f;
-                num -= eq.def.equippedAngleOffset;
+                num -= thingWithComps.def.equippedAngleOffset;
             }
             else
             {
-                num = AdjustOffsetAtPeace(eq, value, compBigChoppa, num);
+                num = AdjustOffsetAtPeace(thingWithComps, value, compBigChoppa, num);
             }
 
             if (compBigChoppa.Props != null && !IsChopping(value) && compBigChoppa.Props.verticalFlipNorth &&
@@ -80,19 +80,20 @@ namespace BigChoppa
 
             num %= 360f;
             Material matSingle;
-            if (eq.Graphic is Graphic_StackCount graphic_StackCount)
+            if (thingWithComps.Graphic is Graphic_StackCount graphic_StackCount)
             {
-                matSingle = graphic_StackCount.SubGraphicForStackCount(1, eq.def).MatSingle;
+                matSingle = graphic_StackCount.SubGraphicForStackCount(1, thingWithComps.def).MatSingle;
             }
             else
             {
-                matSingle = eq.Graphic.MatSingle;
+                matSingle = thingWithComps.Graphic.MatSingle;
             }
 
-            var vector = new Vector3(eq.def.graphicData.drawSize.x, 1f, eq.def.graphicData.drawSize.y);
+            var vector = new Vector3(thingWithComps.def.graphicData.drawSize.x, 1f,
+                thingWithComps.def.graphicData.drawSize.y);
             var matrix4x = default(Matrix4x4);
             var chopping = false;
-            if (IsChopping(value) && !((ThingWithComps) eq).def.IsRangedWeapon)
+            if (IsChopping(value) && !thingWithComps.def.IsRangedWeapon)
             {
                 chopping = true;
                 num += 180f;
@@ -102,7 +103,7 @@ namespace BigChoppa
             var vector2 = AdjustRenderOffsetFromDir(value, compBigChoppa, chopping, aimAngle, out var num2);
             num += num2;
             matrix4x.SetTRS(drawLoc + vector2, Quaternion.AngleAxis(num, Vector3.up), vector);
-            Graphics.DrawMesh(!flag ? MeshPool.plane10 : MeshPool.plane10Flip, matrix4x, matSingle, 0);
+            Graphics.DrawMesh(!flip ? MeshPool.plane10 : MeshPool.plane10Flip, matrix4x, matSingle, 0);
             if (compBigChoppa.Props == null || !compBigChoppa.Props.isDualWeapon)
             {
                 return false;
@@ -114,12 +115,12 @@ namespace BigChoppa
             {
                 num += 135f;
                 num %= 360f;
-                mesh = !flag ? MeshPool.plane10Flip : MeshPool.plane10;
+                mesh = !flip ? MeshPool.plane10Flip : MeshPool.plane10;
             }
             else
             {
                 vector2 = new Vector3(vector2.x, vector2.y - 0.1f, vector2.z + 0.15f);
-                mesh = !flag ? MeshPool.plane10 : MeshPool.plane10Flip;
+                mesh = !flip ? MeshPool.plane10 : MeshPool.plane10Flip;
             }
 
             matrix4x.SetTRS(drawLoc + vector2, Quaternion.AngleAxis(num, Vector3.up), vector);
@@ -159,7 +160,7 @@ namespace BigChoppa
                 obj = stances?.curStance;
             }
 
-            if (obj is Stance_Busy stance_Busy && stance_Busy.focusTarg.IsValid)
+            if (obj is Stance_Busy {focusTarg: {IsValid: true}} stance_Busy)
             {
                 result = stance_Busy.focusTarg;
             }
@@ -182,18 +183,18 @@ namespace BigChoppa
             if (pawn.CurJob.def == JobDefOf.AttackMelee)
             {
                 var curJob = pawn.CurJob;
-                bool flag;
+                bool hasJob;
                 if (curJob == null)
                 {
-                    flag = false;
+                    hasJob = false;
                 }
                 else
                 {
                     var unused = curJob.targetA;
-                    flag = true;
+                    hasJob = true;
                 }
 
-                if (!flag)
+                if (!hasJob)
                 {
                     return false;
                 }
@@ -212,18 +213,18 @@ namespace BigChoppa
             }
 
             var curJob2 = pawn.CurJob;
-            bool flag2;
+            bool alsoHasJob;
             if (curJob2 == null)
             {
-                flag2 = false;
+                alsoHasJob = false;
             }
             else
             {
                 var unused = curJob2.targetA;
-                flag2 = true;
+                alsoHasJob = true;
             }
 
-            if (!flag2)
+            if (!alsoHasJob)
             {
                 return false;
             }
@@ -361,11 +362,7 @@ namespace BigChoppa
             else
             {
                 var num2 = 22.5f;
-                var flag = rotation == Rot4.North;
-                var flag2 = rotation == Rot4.East;
-                var flag3 = rotation == Rot4.South;
-                var flag4 = rotation == Rot4.West;
-                if (flag)
+                if (rotation == Rot4.North)
                 {
                     result = compBigChoppa.Props.chopnorthOffset;
                     if (aimAngle > Rot4.North.AsAngle + num2 && aimAngle < Rot4.East.AsAngle - num2)
@@ -379,7 +376,7 @@ namespace BigChoppa
                             compBigChoppa.Props.chopwestOffset);
                     }
                 }
-                else if (flag2)
+                else if (rotation == Rot4.East)
                 {
                     result = compBigChoppa.Props.chopeastOffset;
                     if (aimAngle > Rot4.East.AsAngle + num2)
@@ -393,7 +390,7 @@ namespace BigChoppa
                             compBigChoppa.Props.chopnorthOffset);
                     }
                 }
-                else if (flag3)
+                else if (rotation == Rot4.South)
                 {
                     result = compBigChoppa.Props.chopsouthOffset;
                     if (aimAngle < Rot4.South.AsAngle - num2 && aimAngle > Rot4.East.AsAngle + num2)
@@ -407,7 +404,7 @@ namespace BigChoppa
                             compBigChoppa.Props.chopwestOffset);
                     }
                 }
-                else if (flag4)
+                else if (rotation == Rot4.West)
                 {
                     result = compBigChoppa.Props.chopwestOffset;
                     if (aimAngle < Rot4.West.AsAngle - num2 && aimAngle > Rot4.South.AsAngle + num2)
