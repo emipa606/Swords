@@ -5,6 +5,8 @@
 Update of Trunkens mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1845180112
 
+- CE-patch moved to the main CE-mod instead
+
 ![Image](https://i.imgur.com/pufA0kM.png)
 
 	
@@ -102,6 +104,7 @@ Join us on Discord: https://discord.gg/sT4zdXt
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 

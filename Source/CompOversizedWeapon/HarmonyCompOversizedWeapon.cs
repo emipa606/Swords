@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using HarmonyLib;
 using RimWorld;
@@ -7,11 +7,9 @@ using Verse;
 
 namespace CompOversizedWeapon
 {
-	// Token: 0x02000004 RID: 4
 	[StaticConstructorOnStartup]
 	internal static class HarmonyCompOversizedWeapon
 	{
-		// Token: 0x06000009 RID: 9 RVA: 0x0000222C File Offset: 0x0000042C
 		static HarmonyCompOversizedWeapon()
 		{
 			var harmonyInstance = new Harmony("rimworld.jecrell.comps.oversized");
@@ -19,7 +17,6 @@ namespace CompOversizedWeapon
 			harmonyInstance.Patch(AccessTools.Method(typeof(Thing), "get_DefaultGraphic", null, null), null, new HarmonyMethod(typeof(HarmonyCompOversizedWeapon), "get_Graphic_PostFix", null), null);
 		}
 
-		// Token: 0x0600000A RID: 10 RVA: 0x000022B0 File Offset: 0x000004B0
 		public static bool DrawEquipmentAimingPreFix(PawnRenderer __instance, Thing eq, Vector3 drawLoc, float aimAngle)
 		{
 			ThingWithComps thingWithComps = eq as ThingWithComps;
@@ -123,7 +120,6 @@ namespace CompOversizedWeapon
 			return true;
 		}
 
-		// Token: 0x0600000B RID: 11 RVA: 0x0000263C File Offset: 0x0000083C
 		private static float AdjustOffsetAtPeace(Thing eq, Pawn pawn, CompOversizedWeapon compOversizedWeapon, float num)
 		{
 			Mesh plane = MeshPool.plane10;
@@ -137,7 +133,6 @@ namespace CompOversizedWeapon
 			return num;
 		}
 
-		// Token: 0x0600000C RID: 12 RVA: 0x00002698 File Offset: 0x00000898
 		private static float AdjustNonCombatRotation(Pawn pawn, float num, CompOversizedWeapon compOversizedWeapon)
 		{
 			bool flag = compOversizedWeapon.Props != null;
@@ -176,7 +171,6 @@ namespace CompOversizedWeapon
 			return num;
 		}
 
-		// Token: 0x0600000D RID: 13 RVA: 0x0000275C File Offset: 0x0000095C
 		private static Vector3 AdjustRenderOffsetFromDir(Pawn pawn, CompOversizedWeapon compOversizedWeapon)
 		{
 			Rot4 rotation = pawn.Rotation;
@@ -210,7 +204,6 @@ namespace CompOversizedWeapon
 			return result;
 		}
 
-		// Token: 0x0600000E RID: 14 RVA: 0x000027F8 File Offset: 0x000009F8
 		public static void get_Graphic_PostFix(Thing __instance, ref Graphic __result)
 		{
 			Graphic value = Traverse.Create(__instance).Field("graphicInt").GetValue<Graphic>();
