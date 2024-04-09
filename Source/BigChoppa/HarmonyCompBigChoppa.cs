@@ -11,13 +11,13 @@ internal static class HarmonyCompBigChoppa
     static HarmonyCompBigChoppa()
     {
         var harmonyInstance = new Harmony("rimworld.jecrellpelador.comps.oversizedbigchoppa");
-        harmonyInstance.Patch(typeof(PawnRenderer).GetMethod("DrawEquipmentAiming"),
+        harmonyInstance.Patch(typeof(PawnRenderUtility).GetMethod("DrawEquipmentAiming"),
             new HarmonyMethod(typeof(HarmonyCompBigChoppa).GetMethod("DrawEquipmentAimingPreFix")));
         harmonyInstance.Patch(AccessTools.Method(typeof(Thing), "get_DefaultGraphic"), null,
             new HarmonyMethod(typeof(HarmonyCompBigChoppa), "get_Graphic_PostFix"));
     }
 
-    public static bool DrawEquipmentAimingPreFix(PawnRenderer __instance, Thing eq, Vector3 drawLoc, float aimAngle)
+    public static bool DrawEquipmentAimingPreFix(Thing eq, Vector3 drawLoc, float aimAngle)
     {
         if (eq is not ThingWithComps thingWithComps)
         {
@@ -40,8 +40,9 @@ internal static class HarmonyCompBigChoppa
 
         var flip = false;
         var num = aimAngle - 90f;
-        var value = Traverse.Create(__instance).Field("pawn").GetValue<Pawn>();
-        if (value == null)
+        var compEquippable = eq.TryGetComp<CompEquippable>();
+
+        if (compEquippable?.parent is not Pawn value)
         {
             return true;
         }
@@ -50,13 +51,13 @@ internal static class HarmonyCompBigChoppa
         {
             case > 20f and < 160f:
             {
-                var unused = MeshPool.plane10;
+                _ = MeshPool.plane10;
                 num += thingWithComps.def.equippedAngleOffset;
                 break;
             }
             case > 200f and < 340f:
             {
-                var unused = MeshPool.plane10Flip;
+                _ = MeshPool.plane10Flip;
                 flip = true;
                 num -= 180f;
                 num -= thingWithComps.def.equippedAngleOffset;
@@ -158,7 +159,7 @@ internal static class HarmonyCompBigChoppa
             obj = stances?.curStance;
         }
 
-        if (obj is Stance_Busy { focusTarg: { IsValid: true } } stance_Busy)
+        if (obj is Stance_Busy { focusTarg.IsValid: true } stance_Busy)
         {
             result = stance_Busy.focusTarg;
         }
@@ -187,7 +188,7 @@ internal static class HarmonyCompBigChoppa
             }
             else
             {
-                var unused = curJob.targetA;
+                _ = curJob.targetA;
                 hasJob = true;
             }
 
@@ -209,7 +210,7 @@ internal static class HarmonyCompBigChoppa
         }
         else
         {
-            var unused = curJob2.targetA;
+            _ = curJob2.targetA;
             alsoHasJob = true;
         }
 
@@ -220,7 +221,7 @@ internal static class HarmonyCompBigChoppa
 
     private static float AdjustOffsetAtPeace(Thing eq, Pawn pawn, CompBigChoppa compBigChoppa, float num)
     {
-        var unused = MeshPool.plane10;
+        _ = MeshPool.plane10;
         var num2 = eq.def.equippedAngleOffset;
         if (compBigChoppa.Props != null && !IsChopping(pawn) && compBigChoppa.Props.verticalFlipOutsideCombat)
         {

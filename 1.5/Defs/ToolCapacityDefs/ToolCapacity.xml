@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ToolCapacityDef>
+    <defName>LS_GatheringStorm</defName>
+  </ToolCapacityDef>
+  <ToolCapacityDef>
+    <defName>LS_DarkClouds</defName>
+  </ToolCapacityDef>
+  <ToolCapacityDef>
+    <defName>LS_DarkVeil</defName>
+  </ToolCapacityDef>
+  <ToolCapacityDef>
+    <defName>LS_BlackWidow</defName>
+  </ToolCapacityDef>
+  <ToolCapacityDef>
+    <defName>LS_ExecutionersCalling</defName>
+  </ToolCapacityDef>
+  <ToolCapacityDef>
+    <defName>LS_FrozenHeart</defName>
+  </ToolCapacityDef>
+  <ToolCapacityDef>
+    <defName>LS_MoonLight</defName>
+  </ToolCapacityDef>
+  <ToolCapacityDef>
+    <defName>LS_BloodLust</defName>
+  </ToolCapacityDef>
+  <ToolCapacityDef>
+    <defName>LS_InfernoBlade</defName>
+  </ToolCapacityDef>
+  <ToolCapacityDef>
+    <defName>LS_Firestorm</defName>
+  </ToolCapacityDef>
+</Defs>

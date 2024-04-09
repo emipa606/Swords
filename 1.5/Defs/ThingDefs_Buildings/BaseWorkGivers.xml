@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>DoBillsMakeBigChoppa</defName>
+    <giverClass>InspirationBuild.WorkGiver_Inspired</giverClass>
+    <label>make big choppa</label>
+    <workType>Smithing</workType>
+    <!-- Crafting -->
+    <priorityInType>100</priorityInType>
+    <verb>make big choppa</verb>
+    <gerund>making big choppa</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <fixedBillGiverDefs>
+      <li>LS_AncestralForge</li>
+    </fixedBillGiverDefs>
+  </WorkGiverDef>
+</Defs>
