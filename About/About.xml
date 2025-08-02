@@ -17,7 +17,7 @@
     <li>
       <packageId>jecrell.jecstools</packageId>
       <displayName>JecsTools</displayName>
-      <steamWorkshopUrl>steam://url/CommunityFilePage/2195729899</steamWorkshopUrl>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3524247750</steamWorkshopUrl>
     </li>
   </modDependencies>
   <loadAfter>
@@ -128,5 +128,5 @@ Join us on Discord: https://discord.gg/sT4zdXt
 [/list] 
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2155363020][img]https://img.shields.io/github/v/release/emipa606/Swords?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  fantasy,  weapons</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
 </ModMetaData>
