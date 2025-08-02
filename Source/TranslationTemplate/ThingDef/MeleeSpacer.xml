@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: cloud sword -->
+  <LS_CloudSword.label>cloud sword</LS_CloudSword.label>
+  <!-- EN: A sword of legendary might smithed by an unknown master of forging art. Massive in size, its weight permits only two-handed use. The metal gathers the storm and surrounding electricity to unleash it in fight. A light touch to the blade is enough to feel a barely perceptible breeze slowly gathering power and growing into roaring storm and back again in tune with wielder's own emotions. -->
+  <LS_CloudSword.description>A sword of legendary might smithed by an unknown master of forging art. Massive in size, its weight permits only two-handed use. The metal gathers the storm and surrounding electricity to unleash it in fight. A light touch to the blade is enough to feel a barely perceptible breeze slowly gathering power and growing into roaring storm and back again in tune with wielder's own emotions.</LS_CloudSword.description>
+  <!-- EN: handle -->
+  <LS_CloudSword.tools.handle.label>handle</LS_CloudSword.tools.handle.label>
+  <!-- EN: cleave -->
+  <LS_CloudSword.tools.cleave.label>cleave</LS_CloudSword.tools.cleave.label>
+  <!-- EN: maw -->
+  <LS_CloudSword.tools.maw.label>maw</LS_CloudSword.tools.maw.label>
+  <!-- EN: tornado -->
+  <LS_CloudSword.tools.tornado.label>tornado</LS_CloudSword.tools.tornado.label>
+  <!-- EN: storm -->
+  <LS_CloudSword.tools.storm.label>storm</LS_CloudSword.tools.storm.label>
+  <!-- EN: blade -->
+  <LS_CloudSword.tools.blade.label>blade</LS_CloudSword.tools.blade.label>
+  <!-- EN: trinity -->
+  <LS_CloudSword.tools.trinity.label>trinity</LS_CloudSword.tools.trinity.label>
+  <!-- EN: assault -->
+  <LS_CloudSword.tools.assault.label>assault</LS_CloudSword.tools.assault.label>
+  <!-- EN: flashback -->
+  <LS_CloudSword.tools.flashback.label>flashback</LS_CloudSword.tools.flashback.label>
+  <!-- EN: strife -->
+  <LS_CloudSword.tools.strife.label>strife</LS_CloudSword.tools.strife.label>
+  <!-- EN: deathbringer -->
+  <LS_Deathbringer.label>deathbringer</LS_Deathbringer.label>
+  <!-- EN: A sword of legendary might smithed by an exceptional blacksmith of unknown name. Massive in size, its weight permits only two-handed use. The conceptual form involves well placed fenris fangs around the blade, allowing the wearer to disarm or dismantle any opponent in close combat. Any contact with the metal causes gaping wounds and heavy bleedings.\n\nOne of very few of its kind. -->
+  <LS_Deathbringer.description>A sword of legendary might smithed by an exceptional blacksmith of unknown name. Massive in size, its weight permits only two-handed use. The conceptual form involves well placed fenris fangs around the blade, allowing the wearer to disarm or dismantle any opponent in close combat. Any contact with the metal causes gaping wounds and heavy bleedings.
+
+One of very few of its kind.</LS_Deathbringer.description>
+  <!-- EN: handle -->
+  <LS_Deathbringer.tools.handle.label>handle</LS_Deathbringer.tools.handle.label>
+  <!-- EN: cleave -->
+  <LS_Deathbringer.tools.cleave.label>cleave</LS_Deathbringer.tools.cleave.label>
+  <!-- EN: maw -->
+  <LS_Deathbringer.tools.maw.label>maw</LS_Deathbringer.tools.maw.label>
+  <!-- EN: strike -->
+  <LS_Deathbringer.tools.strike.label>strike</LS_Deathbringer.tools.strike.label>
+  <!-- EN: dismantle -->
+  <LS_Deathbringer.tools.dismantle.label>dismantle</LS_Deathbringer.tools.dismantle.label>
+  <!-- EN: counter -->
+  <LS_Deathbringer.tools.counter.label>counter</LS_Deathbringer.tools.counter.label>
+  <!-- EN: blade -->
+  <LS_Deathbringer.tools.blade.label>blade</LS_Deathbringer.tools.blade.label>
+  <!-- EN: riposte -->
+  <LS_Deathbringer.tools.riposte.label>riposte</LS_Deathbringer.tools.riposte.label>
+  <!-- EN: blood rain -->
+  <LS_Deathbringer.tools.blood_rain.label>blood rain</LS_Deathbringer.tools.blood_rain.label>
+  <!-- EN: executioner -->
+  <LS_Executioner.label>executioner</LS_Executioner.label>
+  <!-- EN: A sword of legendary might smithed by an exceptional blacksmith of unknown name. Massive in size, its weight permits only two-handed use. The multi-layered steel was done in many, many hours of working. It is incredible hard and cuts through flesh and bones of any kind like paper. Furious and feared in battle, you hear silent wails, when it cuts through another lifeline.\n\nAwakens the malice in one. The blade is freezing cold. -->
+  <LS_Executioner.description>A sword of legendary might smithed by an exceptional blacksmith of unknown name. Massive in size, its weight permits only two-handed use. The multi-layered steel was done in many, many hours of working. It is incredible hard and cuts through flesh and bones of any kind like paper. Furious and feared in battle, you hear silent wails, when it cuts through another lifeline.
+
+Awakens the malice in one. The blade is freezing cold.</LS_Executioner.description>
+  <!-- EN: handle -->
+  <LS_Executioner.tools.handle.label>handle</LS_Executioner.tools.handle.label>
+  <!-- EN: cleave -->
+  <LS_Executioner.tools.cleave.label>cleave</LS_Executioner.tools.cleave.label>
+  <!-- EN: maw -->
+  <LS_Executioner.tools.maw.label>maw</LS_Executioner.tools.maw.label>
+  <!-- EN: freeze -->
+  <LS_Executioner.tools.freeze.label>freeze</LS_Executioner.tools.freeze.label>
+  <!-- EN: wind -->
+  <LS_Executioner.tools.wind.label>wind</LS_Executioner.tools.wind.label>
+  <!-- EN: slide -->
+  <LS_Executioner.tools.slide.label>slide</LS_Executioner.tools.slide.label>
+  <!-- EN: blade -->
+  <LS_Executioner.tools.blade.label>blade</LS_Executioner.tools.blade.label>
+  <!-- EN: throatcutter -->
+  <LS_Executioner.tools.throatcutter.label>throatcutter</LS_Executioner.tools.throatcutter.label>
+  <!-- EN: behead -->
+  <LS_Executioner.tools.behead.label>behead</LS_Executioner.tools.behead.label>
+  <!-- EN: nightfall -->
+  <LS_Nightfall.label>nightfall</LS_Nightfall.label>
+  <!-- EN: A sword of legendary might smithed by an unknown master of forging art. Massive in size, its weight can only be lifted by the strongest of arms. The alloy of dark matter eats the surrounding light. A small cut by its blade is enough inflict a kiss of black poison, heavily affecting the victims perception and abilities on time. It always stays unnaturally sharp and seems to vanish in the dark on heavy swings. In the right hands this weapon is capable of cleaving multiple targets, truely mawing down hordes on its own. -->
+  <LS_Nightfall.description>A sword of legendary might smithed by an unknown master of forging art. Massive in size, its weight can only be lifted by the strongest of arms. The alloy of dark matter eats the surrounding light. A small cut by its blade is enough inflict a kiss of black poison, heavily affecting the victims perception and abilities on time. It always stays unnaturally sharp and seems to vanish in the dark on heavy swings. In the right hands this weapon is capable of cleaving multiple targets, truely mawing down hordes on its own.</LS_Nightfall.description>
+  <!-- EN: handle -->
+  <LS_Nightfall.tools.handle.label>handle</LS_Nightfall.tools.handle.label>
+  <!-- EN: cleave -->
+  <LS_Nightfall.tools.cleave.label>cleave</LS_Nightfall.tools.cleave.label>
+  <!-- EN: maw -->
+  <LS_Nightfall.tools.maw.label>maw</LS_Nightfall.tools.maw.label>
+  <!-- EN: vanish -->
+  <LS_Nightfall.tools.vanish.label>vanish</LS_Nightfall.tools.vanish.label>
+  <!-- EN: venom -->
+  <LS_Nightfall.tools.venom.label>venom</LS_Nightfall.tools.venom.label>
+  <!-- EN: shadows -->
+  <LS_Nightfall.tools.shadows.label>shadows</LS_Nightfall.tools.shadows.label>
+  <!-- EN: blade -->
+  <LS_Nightfall.tools.blade.label>blade</LS_Nightfall.tools.blade.label>
+  <!-- EN: impale -->
+  <LS_Nightfall.tools.impale.label>impale</LS_Nightfall.tools.impale.label>
+  <!-- EN: void -->
+  <LS_Nightfall.tools.void.label>void</LS_Nightfall.tools.void.label>
+  <!-- EN: red queen -->
+  <LS_RedQueen.label>red queen</LS_RedQueen.label>
+  <!-- EN: A weapon of legendary might forged by the Order of the Sword for a holy knight, to protect their own against the relentless demonic hordes in a time of darkness and chaos. Designed by the Order's Chief Alchemist this weapon is intended for two-handed use and has a motorcycle-like handle, that spreads liquid fire along the blade, setting ablaze anyone, who dares to touch the edge. -->
+  <LS_RedQueen.description>A weapon of legendary might forged by the Order of the Sword for a holy knight, to protect their own against the relentless demonic hordes in a time of darkness and chaos. Designed by the Order's Chief Alchemist this weapon is intended for two-handed use and has a motorcycle-like handle, that spreads liquid fire along the blade, setting ablaze anyone, who dares to touch the edge.</LS_RedQueen.description>
+  <!-- EN: handle -->
+  <LS_RedQueen.tools.handle.label>handle</LS_RedQueen.tools.handle.label>
+  <!-- EN: cleave -->
+  <LS_RedQueen.tools.cleave.label>cleave</LS_RedQueen.tools.cleave.label>
+  <!-- EN: maw -->
+  <LS_RedQueen.tools.maw.label>maw</LS_RedQueen.tools.maw.label>
+  <!-- EN: exceed -->
+  <LS_RedQueen.tools.exceed.label>exceed</LS_RedQueen.tools.exceed.label>
+  <!-- EN: nero -->
+  <LS_RedQueen.tools.nero.label>nero</LS_RedQueen.tools.nero.label>
+  <!-- EN: burst -->
+  <LS_RedQueen.tools.burst.label>burst</LS_RedQueen.tools.burst.label>
+  <!-- EN: justice -->
+  <LS_RedQueen.tools.justice.label>justice</LS_RedQueen.tools.justice.label>
+  <!-- EN: firestorm -->
+  <LS_RedQueen.tools.firestorm.label>firestorm</LS_RedQueen.tools.firestorm.label>
+  <!-- EN: purification -->
+  <LS_RedQueen.tools.purification.label>purification</LS_RedQueen.tools.purification.label>
+  <!-- EN: demonhunter -->
+  <LS_RedQueen.tools.demonhunter.label>demonhunter</LS_RedQueen.tools.demonhunter.label>
+  <!-- EN: whirlwind -->
+  <LS_RedQueen.tools.whirlwind.label>whirlwind</LS_RedQueen.tools.whirlwind.label>
+</LanguageData>

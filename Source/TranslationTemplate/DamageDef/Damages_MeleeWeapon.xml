@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: black widow -->
+  <LS_BlackPoison.label>black widow</LS_BlackPoison.label>
+  <!-- EN: {0} has been bitten to death. -->
+  <LS_BlackPoison.deathMessage>{0} has been bitten to death.</LS_BlackPoison.deathMessage>
+  <!-- EN: blood rain -->
+  <LS_BloodRain.label>blood rain</LS_BloodRain.label>
+  <!-- EN: {0} has been ruptured apart. -->
+  <LS_BloodRain.deathMessage>{0} has been ruptured apart.</LS_BloodRain.deathMessage>
+  <!-- EN: dark shadows -->
+  <LS_DarkShadows.label>dark shadows</LS_DarkShadows.label>
+  <!-- EN: {0} has been stabbed to death out of nowhere. -->
+  <LS_DarkShadows.deathMessage>{0} has been stabbed to death out of nowhere.</LS_DarkShadows.deathMessage>
+  <!-- EN: execution cut -->
+  <LS_DecapBehead.label>execution cut</LS_DecapBehead.label>
+  <!-- EN: {0} has been decapitated. -->
+  <LS_DecapBehead.deathMessage>{0} has been decapitated.</LS_DecapBehead.deathMessage>
+  <!-- EN: fenris fang -->
+  <LS_FenrisFang.label>fenris fang</LS_FenrisFang.label>
+  <!-- EN: {0} has been sliced to death. -->
+  <LS_FenrisFang.deathMessage>{0} has been sliced to death.</LS_FenrisFang.deathMessage>
+  <!-- EN: nero -->
+  <LS_FieryJustice.label>nero</LS_FieryJustice.label>
+  <!-- EN: {0} has burned to ashes. -->
+  <LS_FieryJustice.deathMessage>{0} has burned to ashes.</LS_FieryJustice.deathMessage>
+  <!-- EN: conflict -->
+  <LS_FlashBack.label>conflict</LS_FlashBack.label>
+  <!-- EN: {0} has been cut to death. -->
+  <LS_FlashBack.deathMessage>{0} has been cut to death.</LS_FlashBack.deathMessage>
+  <!-- EN: frozen heart -->
+  <LS_FrozenBlade.label>frozen heart</LS_FrozenBlade.label>
+  <!-- EN: {0} has been frozen to death. -->
+  <LS_FrozenBlade.deathMessage>{0} has been frozen to death.</LS_FrozenBlade.deathMessage>
+  <!-- EN: hellfire -->
+  <LS_Hellfire.label>hellfire</LS_Hellfire.label>
+  <!-- EN: {0} has burned to ashes. -->
+  <LS_Hellfire.deathMessage>{0} has burned to ashes.</LS_Hellfire.deathMessage>
+  <!-- EN: storm razor -->
+  <LS_StormRazor.label>storm razor</LS_StormRazor.label>
+  <!-- EN: {0} has been dismantled to pieces. -->
+  <LS_StormRazor.deathMessage>{0} has been dismantled to pieces.</LS_StormRazor.deathMessage>
+</LanguageData>

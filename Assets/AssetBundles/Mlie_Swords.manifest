@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 3869031521
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0027809fa75ce76443254fe0c2924e53
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce3b6d18a872ca8039cd5eb3c4fb7ef5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 0027809fa75ce76443254fe0c2924e53
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.Swords/Textures/Things/Item/Special/DefinitivePlaceHolder.png
+- Assets/Data/Mlie.Swords/Sounds/Atmosphere/BloodyBlade.wav
+- Assets/Data/Mlie.Swords/Textures/Things/Building/AncestralForge/AncestralForge_south.png
+- Assets/Data/Mlie.Swords/Sounds/Atmosphere/Slashing/SwordSlash3.wav
+- Assets/Data/Mlie.Swords/Textures/Things/Equipment/WeaponMelee/CloudSword.png
+- Assets/Data/Mlie.Swords/Sounds/Atmosphere/SwordSwoosh.wav
+- Assets/Data/Mlie.Swords/Sounds/Atmosphere/Slashing/SwordSlash2.wav
+- Assets/Data/Mlie.Swords/Sounds/Atmosphere/Slashing/SwordSlash1.wav
+- Assets/Data/Mlie.Swords/Textures/Things/Equipment/WeaponMelee/Nightfall.png
+- Assets/Data/Mlie.Swords/Textures/Things/Equipment/WeaponMelee/Deathbringer.png
+- Assets/Data/Mlie.Swords/Sounds/Atmosphere/SwordImpact.wav
+- Assets/Data/Mlie.Swords/Textures/Things/Building/AncestralForge/AncestralForge_west.png
+- Assets/Data/Mlie.Swords/Sounds/Atmosphere/SwordSheath.mp3
+- Assets/Data/Mlie.Swords/Sounds/Atmosphere/SwordDraw.wav
+- Assets/Data/Mlie.Swords/Sounds/Atmosphere/SwordParry.wav
+- Assets/Data/Mlie.Swords/Sounds/Atmosphere/BloodyStab.wav
+- Assets/Data/Mlie.Swords/Textures/Things/Equipment/WeaponMelee/Executioner.png
+- Assets/Data/Mlie.Swords/Sounds/Atmosphere/SwordCleave.wav
+- Assets/Data/Mlie.Swords/Textures/Things/Building/AncestralForge/AncestralForge_north.png
+- Assets/Data/Mlie.Swords/Sounds/Atmosphere/SwordSwing.mp3
+- Assets/Data/Mlie.Swords/Textures/Things/Equipment/WeaponMelee/RedQueen.png
+- Assets/Data/Mlie.Swords/Sounds/Atmosphere/Slashing/SwordSlash4.wav
+Dependencies: []

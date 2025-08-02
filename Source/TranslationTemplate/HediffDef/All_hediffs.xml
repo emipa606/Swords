@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: poison -->
+  <LS_BlackPoison.label>poison</LS_BlackPoison.label>
+  <!-- EN: poison -->
+  <LS_BlackPoison.description>poison</LS_BlackPoison.description>
+  <!-- EN: minor -->
+  <LS_BlackPoison.stages.minor-0.label>minor</LS_BlackPoison.stages.minor-0.label>
+  <!-- EN: minor -->
+  <LS_BlackPoison.stages.minor-1.label>minor</LS_BlackPoison.stages.minor-1.label>
+  <!-- EN: moderate -->
+  <LS_BlackPoison.stages.moderate.label>moderate</LS_BlackPoison.stages.moderate.label>
+  <!-- EN: severe -->
+  <LS_BlackPoison.stages.severe.label>severe</LS_BlackPoison.stages.severe.label>
+  <!-- EN: extreme -->
+  <LS_BlackPoison.stages.extreme.label>extreme</LS_BlackPoison.stages.extreme.label>
+  <!-- EN: bleeding -->
+  <LS_BleedOut.label>bleeding</LS_BleedOut.label>
+  <!-- EN: bleeding -->
+  <LS_BleedOut.description>bleeding</LS_BleedOut.description>
+  <!-- EN: minor -->
+  <LS_BleedOut.stages.minor-0.label>minor</LS_BleedOut.stages.minor-0.label>
+  <!-- EN: minor -->
+  <LS_BleedOut.stages.minor-1.label>minor</LS_BleedOut.stages.minor-1.label>
+  <!-- EN: moderate -->
+  <LS_BleedOut.stages.moderate.label>moderate</LS_BleedOut.stages.moderate.label>
+  <!-- EN: severe -->
+  <LS_BleedOut.stages.severe.label>severe</LS_BleedOut.stages.severe.label>
+  <!-- EN: extreme -->
+  <LS_BleedOut.stages.extreme.label>extreme</LS_BleedOut.stages.extreme.label>
+  <!-- EN: gaping -->
+  <LS_BleedOut.stages.gaping.label>gaping</LS_BleedOut.stages.gaping.label>
+  <!-- EN: storm -->
+  <LS_CloudStrife.label>storm</LS_CloudStrife.label>
+  <!-- EN: storm -->
+  <LS_CloudStrife.description>storm</LS_CloudStrife.description>
+  <!-- EN: minor -->
+  <LS_CloudStrife.stages.minor-0.label>minor</LS_CloudStrife.stages.minor-0.label>
+  <!-- EN: minor -->
+  <LS_CloudStrife.stages.minor-1.label>minor</LS_CloudStrife.stages.minor-1.label>
+  <!-- EN: moderate -->
+  <LS_CloudStrife.stages.moderate.label>moderate</LS_CloudStrife.stages.moderate.label>
+  <!-- EN: severe -->
+  <LS_CloudStrife.stages.severe.label>severe</LS_CloudStrife.stages.severe.label>
+  <!-- EN: extreme -->
+  <LS_CloudStrife.stages.extreme.label>extreme</LS_CloudStrife.stages.extreme.label>
+  <!-- EN: inner conflict -->
+  <LS_CloudStrife.stages.inner_conflict.label>inner conflict</LS_CloudStrife.stages.inner_conflict.label>
+  <!-- EN: freezing cold -->
+  <LS_ColdHeart.label>freezing cold</LS_ColdHeart.label>
+  <!-- EN: freezing cold -->
+  <LS_ColdHeart.description>freezing cold</LS_ColdHeart.description>
+  <!-- EN: liquid fire -->
+  <LS_LiquidFire.label>liquid fire</LS_LiquidFire.label>
+  <!-- EN: liquid fire -->
+  <LS_LiquidFire.description>liquid fire</LS_LiquidFire.description>
+  <!-- EN: ardent -->
+  <LS_LiquidFire.stages.ardent-0.label>ardent</LS_LiquidFire.stages.ardent-0.label>
+  <!-- EN: ardent -->
+  <LS_LiquidFire.stages.ardent-1.label>ardent</LS_LiquidFire.stages.ardent-1.label>
+  <!-- EN: undying -->
+  <LS_LiquidFire.stages.undying.label>undying</LS_LiquidFire.stages.undying.label>
+  <!-- EN: haunting -->
+  <LS_LiquidFire.stages.haunting.label>haunting</LS_LiquidFire.stages.haunting.label>
+  <!-- EN: devilish -->
+  <LS_LiquidFire.stages.devilish.label>devilish</LS_LiquidFire.stages.devilish.label>
+  <!-- EN: brand -->
+  <LS_LiquidFire.stages.brand.label>brand</LS_LiquidFire.stages.brand.label>
+</LanguageData>

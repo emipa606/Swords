@@ -57,16 +57,12 @@ public class CompBigChoppa : ThingComp
     {
         get
         {
-            bool result;
-            if (Find.TickManager.TicksGame % 60 != 0)
-            {
-                result = isEquipped;
-            }
-            else
+            if (parent.IsHashIntervalTick(60))
             {
                 isEquipped = GetPawn != null;
-                result = isEquipped;
             }
+
+            var result = isEquipped;
 
             return result;
         }

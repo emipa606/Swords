@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Configurations>
+    <BuildType Name="Release" />
+  </Configurations>
+  <Project Path="BigChoppa/BigChoppa.csproj" />
+  <Project Path="WorkGiver_InspirationRequired/WorkGiver_InspirationRequired.csproj" />
+</Solution>
